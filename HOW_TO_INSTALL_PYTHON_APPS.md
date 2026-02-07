@@ -30,6 +30,12 @@ An installation script is (requirements_install.bat / requirements_install.sh) a
 As soon as you have cloned or downloaded the repository, you can use it to install
 the tool/library within your Python package directory.
 
+Automatic installation using IDE (Recommended)
+----------------------
+
+Modern IDEs like Pycharm also offers to install Package Requirmeents automatically.
+Once the project is open in IDE, same can be used.
+
 Manual installation using pip commands
 ----------------------
 
