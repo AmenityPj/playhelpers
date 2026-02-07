@@ -17,7 +17,7 @@ All Required packages are listed in requirements.txt, which is further bifurcate
 3. ```requirements_internal_lib.txt```Required Internal Libraries
 4. ```requirements_internal_tool.txt```Required Internal Tools
 
-Few dedciated Basic Scripts are also present under <i>scripts</i> directory.
+Few dedicated Basic Scripts are also present under <i>scripts</i> directory.
    - Currently, Scripts are targeting <i>venv</i> (virtual environment directory, Present in parallel of <i>scripts</i> directory)
    - However, the same can be modified as per user choice.
     
@@ -33,7 +33,7 @@ the tool/library within your Python package directory.
 Automatic installation using IDE (Recommended)
 ----------------------
 
-Modern IDEs like Pycharm also offers to install Package Requirmeents automatically.
+Modern IDEs like Pycharm also offers to install Package Requirements automatically.
 Once the project is open in IDE, same can be used.
 
 Manual installation using pip commands
@@ -57,7 +57,7 @@ the tool/library within your Python package directory.
 Manual installation using setup.py
 ----------------------
 
-Setup File can also be executed manully.
+Setup File can also be executed manually.
 
 ```
 Sample Command(s): 

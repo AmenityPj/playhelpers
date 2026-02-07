@@ -61,6 +61,10 @@ try:
     # this is available only in Unix
 except ImportError:
     _pwd_available = False
+try:
+    import base_profiles
+except ImportError:
+    _base_profiles_available = False
 
 """
 User Choice
