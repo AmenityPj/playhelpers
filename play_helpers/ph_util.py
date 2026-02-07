@@ -88,7 +88,7 @@ class PhUtil:
             since = f" {details_dic.get('since')} release." if 'since' in details_dic else None
             alternate = f", use {details_dic.get('alternate')} instead !!!" if 'alternate' in details_dic else None
             raise AttributeError(''.join(filter(None, [
-                f"`{attr}` was removed in the PythonHelpers",
+                f"`{attr}` was removed in the playhelpers",
                 f'{since}',
                 f'{alternate}',
             ])))
@@ -434,9 +434,11 @@ class PhUtil:
             cls.print_separator(character=character, count=count, main_text=main_text, log=log)
 
     @classmethod
-    def print_done(cls, main_text='All Done.', log=None):
+    def print_done(cls, main_text='All Done.', log=None, with_time_stamp=True):
         cls.print_separator(log=log)
-        cls.print_separator(character=' ', count=35, main_text=main_text, log=log)
+        if with_time_stamp:
+            main_text = f'{main_text} ({cls.get_time_stamp(default_format=True)})'
+        cls.print_separator(character=' ', main_text=main_text, log=log)
         cls.print_separator(log=log)
 
     @classmethod
@@ -936,11 +938,11 @@ class PhUtil:
         # now = datetime.now().astimezone() # needed for %z & %Z
         now = datetime.now(tzlocal.get_localzone())
         if default_format:
-            return now
+            return str(now)
         date_time = now.strftime(time_format)
         if files_format:
             return str(date_time)
-        return date_time
+        return str(date_time)
 
     @classmethod
     def format_time(cls, time_value, time_interval=False):
@@ -2148,7 +2150,12 @@ class PhUtil:
         :param minimum_version_required:
         :return:
         """
-        module_version = pkg_resources.get_distribution(module_name).version
+        try:
+            module_obj = pkg_resources.get_distribution(module_name)
+        except pkg_resources.DistributionNotFound as e:
+            print(f"An exception occurred: {e}")
+            return 'None'
+        module_version = module_obj.version
         module_version = version.parse(module_version)
         if minimum_version_required:
             minimum_version_required = version.parse(minimum_version_required)

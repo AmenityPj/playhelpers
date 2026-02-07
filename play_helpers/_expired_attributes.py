@@ -21,6 +21,7 @@ __expired_attributes__ = {
     'makedirs': {'since': 'v5.0.0', 'alternate': 'make_dirs'},
     'clean_dirs': {'since': 'v5.0.0', 'alternate': 'clean_dirs'},
     'parse_config': {'since': 'v5.2.0', 'alternate': 'dict_to_data'},
+    'playhelpers': {'since': 'v6.0.0', 'alternate': 'playhelpers'},
 
     # copied from np
     # 'seterrobj': 'Use the np.errstate context manager instead.',
