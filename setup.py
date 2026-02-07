@@ -21,6 +21,9 @@ install_reqs = [
     'pandas',
     'psutil',
     'tzlocal',
+    'click',
+    'twisted',
+    'incremental',
     'requests',
     'pycryptodome',
     'ruamel.yaml',
@@ -39,7 +42,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), "r", encoding="u
 
 setup(
     use_incremental=True,
-    setup_requires=setup_reqs + install_reqs,
+    setup_requires=setup_reqs,
     name=PhConfigConst.TOOL_NAME,
     author="Pratik Jaiswal",
     author_email="impratikjaiswal@gmail.com",

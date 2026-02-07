@@ -48,7 +48,7 @@ build-backend = "setuptools.build_meta"
 # build-backend = "setuptools.build_meta"
 
 [project]
-name = "pythonHelpers"
+name = "playhelpers"
 dynamic = ["version"] # Mark version as dynamic
 
 description = "A sample Python project"
