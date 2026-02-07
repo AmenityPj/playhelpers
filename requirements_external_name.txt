@@ -1,0 +1,24 @@
+##################################################
+#### List of Needed External Tools / Libraries (Names Only)
+##################################################
+
+# Packaging
+packaging
+
+# Pandas
+pandas
+
+# Cpu Usage
+psutil
+
+# TimeZone
+tzlocal
+
+# Required for IPV4 & IPV6
+requests
+
+# Crypto
+pycryptodome
+
+# YML API
+ruamel.yaml

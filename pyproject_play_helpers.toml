@@ -1,0 +1,56 @@
+[build-system]
+# # Minimum requirements for the build system to execute.
+requires = ["setuptools >= 58.1.0", "incremental >= 22.10.0"]
+build-backend = "setuptools.build_meta"
+
+# 'packaging',
+# build-backend = "flit_core.buildapi"
+
+# 'pandas',
+# build-backend = "mesonpy"
+# requires = [
+#     "meson-python>=0.13.1",
+#     "meson>=1.2.1,<2",
+#     "wheel",
+#     "Cython<4.0.0a0",  # Note: sync with setup.py, environment.yml and asv.conf.json
+#     # Force numpy higher than 2.0rc1, so that built wheels are compatible
+#     # with both numpy 1 and 2
+#     "numpy>=2.0.0rc1",
+#     "versioneer[toml]"
+# ]
+
+# 'psutil',
+# build-backend = "setuptools.build_meta"
+# requires = ["setuptools>=43"]
+
+# 'tzlocal',
+# requires = ["setuptools >= 64"]
+# build-backend = "setuptools.build_meta"
+
+# 'click',
+# requires = ["flit_core>=3.11,<4"]
+# build-backend = "flit_core.buildapi"
+
+# 'twisted',
+# requires = [
+#     "hatchling >= 1.10.0",
+#     "hatch-fancy-pypi-readme >= 22.5.0",
+#     "incremental >= 24.7.0",
+# ]
+# build-backend = "hatchling.build"
+
+# 'incremental',
+# requires = ["hatchling>=1.6.0"]
+# build-backend = "hatchling.build"
+
+# 'pycryptodome',
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythonHelpers"
+dynamic = ["version"] # Mark version as dynamic
+
+description = "A sample Python project"
+
+readme = {file = "README.md", content-type = "text/markdown"}
