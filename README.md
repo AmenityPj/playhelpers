@@ -1,6 +1,9 @@
 # Play Helpers
 This package contains common utility functions written in python.
 
+🟢 [Play Helpers](https://github.com/AmenityPj/PlayHelpers) 🟢 is official successor of ⚪ [pythonHelpers](https://github.com/impratikjaiswal/pythonHelpers) ⚪
+
+# Stats
 [![GitHub License](https://img.shields.io/github/license/AmenityPj/playhelpers)](LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
