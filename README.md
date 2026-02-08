@@ -20,8 +20,8 @@ This package contains common utility functions written in python.
 [![Test Build with variety of Pythons](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml)
 [![Publish Jekyll site to GitHub Pages](https://github.com/AmenityPj/playhelpers/actions/workflows/python-github-pages.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-github-pages.yml)
 
-[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AmenityPj/playhelpers/total)
-[![GitHub Repo stars](https://img.shields.io/github/stars/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/stargazers)]()
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AmenityPj/playhelpers/total)]()
+[![GitHub Repo stars](https://img.shields.io/github/stars/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/stargazers)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AmenityPj/playhelpers)]()
 [![GitHub repo size](https://img.shields.io/github/repo-size/AmenityPj/playhelpers)]()
 [![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/AmenityPj/playhelpers)]()
