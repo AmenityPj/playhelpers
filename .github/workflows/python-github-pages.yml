@@ -1,10 +1,11 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Publish Jekyll site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [ "main" ]
+    tags:
+      -'v*' # Triggers on any tag starting with 'v'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,8 +23,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

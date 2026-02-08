@@ -7,6 +7,16 @@ https://pypi.org/manage/project/playhelpers/settings/publishing/
                 Repository name (required)      :   playhelpers
                 Workflow name (required)        :   python-publish-pypi.yml
                 Environment name (optional)     :   
+}************************************************************{ Github Repo
+About:
+        Website
+        Topics
+}************************************************************{ Github Discussion
+
+}************************************************************{ Github Deployments
+
+
 }************************************************************{ Github Docs Setup
-"\playhelpers\_config.yml"
-        
+"\playhelpers\docs\_config.yml"
+https://github.com/AmenityPj/playhelpers/settings/pages
+}************************************************************{ 

@@ -1,7 +1,8 @@
-name: Python Publish Package to PyPI
+name: Publish Python Package to PyPI
 
 on:
   push:
+    branches: [ "main" ]
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+' # Triggers on any tag with 'v.major.minor.patch' format
 
