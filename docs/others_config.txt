@@ -1,0 +1,12 @@
+}************************************************************{ PyPI
+"\playhelpers\.github\workflows\python-publish-pypi.yml"
+https://pypi.org/manage/project/playhelpers/settings/publishing/
+        Add a new publisher
+                Github
+                Owner (required)                :   AmenityPj
+                Repository name (required)      :   playhelpers
+                Workflow name (required)        :   python-publish-pypi.yml
+                Environment name (optional)     :   
+}************************************************************{ Github Docs Setup
+"\playhelpers\_config.yml"
+        

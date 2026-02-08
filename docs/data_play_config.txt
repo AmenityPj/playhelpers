@@ -21,4 +21,4 @@ play_helpers
 pythonhelpers
 playhelpers
 }--------------------------------------------------------------------------------{ 
-D:\Other\Github_Self\playhelpers\runConfigurations\test_playhelpers.run
+

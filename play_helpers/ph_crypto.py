@@ -54,6 +54,7 @@ class PhCrypto:
     def hash_file(cls, file_obj, hex_digest=True):
         """
 
+        :param file_obj:
         :param hex_digest:
         :param msg:
         :return:
