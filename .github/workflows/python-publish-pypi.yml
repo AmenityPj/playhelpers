@@ -2,11 +2,8 @@ name: Publish Python Package to PyPI
 
 on:
   push:
-    branches: [ "main" ]
     tags: # Triggers on:
       - 'v[0-9]+.[0-9]+.[0-9]+' # include, any tag with 'v.major.minor.patch' format
-      - '!v*.*.*.*'             # exclude, any tag with a 4th segment (like .dev1)
-      - '!v*dev*'  # 2. EXCLUDE tags containing 'dev'
 
 jobs:
   build-n-publish:
