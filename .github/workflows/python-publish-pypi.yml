@@ -3,12 +3,21 @@ name: Publish Python Package to PyPI
 on:
   push:
     branches: [ "main" ]
+    tags-ignore:
+      - '!v*.*.*.**' # EXCLUDE tags with more than 3 segments (e.g., v1.0.0.1)
+      - '!v*.*.*.*' # EXCLUDE tags with more than 3 segments (e.g., v1.0.0.1)
     tags:
-#      - 'v[0-9]+.[0-9]+.[0-9]+' # Triggers on any tag with 'v.major.minor.patch' format
+      - 'v[0-9]+.[0-9]+.[0-9]+' # Triggers on any tag with 'v.major.minor.patch' format
+
+      #      - 'v[0-9]+.[0-9]+.[0-9]+' # Triggers on any tag with 'v.major.minor.patch' format
 #      - '!v*.*.*.**'           # Exclude tags with any additional suffixes (like .dev1)
-      - 'v[0-9].[0-9].[0-9]'    # Matches v1.0.0
-      - 'v[0-9]*.[0-9]*.[0-9]*' # Matches v12.34.56
-      - '!v*.*.*.**'           # Exclude tags with any additional suffixes (like .dev1)
+#      - 'v[0-9].[0-9].[0-9]'    # Matches v1.0.0
+#      - 'v[0-9]*.[0-9]*.[0-9]*' # Matches v12.34.56
+#      - '!v*.*.*.*'           # Exclude tags with any additional suffixes (like .dev1)
+      #   v6.0.2.dev1
+
+#      - 'v[0-9]*.[0-9]*.[0-9]*' # 1. Matches v1.2.3 or v10.22.1
+#      - '!v*.*.*.**'           # 2. EXCLUDES any tag with a 4th segment (like .dev1)
 
 jobs:
   build-n-publish:
