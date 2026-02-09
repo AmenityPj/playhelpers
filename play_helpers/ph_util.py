@@ -4,6 +4,7 @@ import ctypes
 import enum
 import fnmatch
 import inspect
+import json
 import math
 import os
 import random
@@ -1648,6 +1649,15 @@ class PhUtil:
             else:
                 file_write.write(output_lines)
         return file_name
+
+    @classmethod
+    def to_json(cls, json_data, json_file_path):
+        if isinstance(json_data, dict):
+            json_object = json_data
+        else:
+            json_object = json.loads(json_data)
+        with open(json_file_path, 'w') as json_file:
+            json.dump(json_object, json_file, indent=4)
 
     @classmethod
     def compare_two_data_frame(cls, file_input_left, file_input_right, col_name, file_result='', sort=False,
