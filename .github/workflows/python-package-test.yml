@@ -7,14 +7,13 @@ on:
   push:
     # Triggers on any tag starting with 'v' (on any branch) or any commit on main branch
     branches: [ "main" ]
-    tags:
-      - 'v*'
+    tags: [ "v*" ]
 
-  pull_request:
-    # Triggers on any tag starting with 'v' (on any branch) or any commit on main branch
-    branches: [ "main" ]
-    tags:
-      - 'v*'
+#  pull_request:
+#    # Triggers on any tag starting with 'v' (on any branch) or any commit on main branch
+#    branches: [ "main" ]
+#    tags:
+#      - 'v*'
 
 jobs:
   build:
