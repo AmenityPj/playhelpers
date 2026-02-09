@@ -1,4 +1,5 @@
 from collections import namedtuple, OrderedDict
+
 """
 Ref: https://github.com/MMVonnSeek/Python-Color-Constants-Module/tree/main
 
@@ -7,6 +8,7 @@ Also Check (TODO):
     
     colormap: dict[str, str | tuple[int, int, int]] = {
 """
+
 
 class RGB(namedtuple('RGB', 'red, green, blue')):
     def hex_format(self):

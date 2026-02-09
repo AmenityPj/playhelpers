@@ -8,13 +8,13 @@ on:
     # Triggers on any tag starting with 'v' (on any branch) or any commit on main branch
     branches: [ "main" ]
     tags:
-      -'v*'
+      - 'v*'
 
   pull_request:
     # Triggers on any tag starting with 'v' (on any branch) or any commit on main branch
     branches: [ "main" ]
     tags:
-      -'v*'
+      - 'v*'
 
 jobs:
   build:

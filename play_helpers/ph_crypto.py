@@ -1,8 +1,8 @@
-import hashlib
-
 import binascii
-from Crypto.Cipher import AES
+import hashlib
 from itertools import cycle
+
+from Crypto.Cipher import AES
 
 from play_helpers.ph_defaults import PhDefaults
 from play_helpers.ph_util import PhUtil
