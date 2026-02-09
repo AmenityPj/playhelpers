@@ -3,9 +3,9 @@ name: Publish Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    # Triggers on any tag starting with 'v' (on any branch)
     tags:
-      -'v*' # Triggers on any tag starting with 'v'
+      -'v*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
