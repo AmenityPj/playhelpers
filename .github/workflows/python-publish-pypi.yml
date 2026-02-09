@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+' # Triggers on any tag with 'v.major.minor.patch' format
+      - '!v*.*.*.**'           # Exclude tags with any additional suffixes (like .dev1)
 
 jobs:
   build-n-publish:
