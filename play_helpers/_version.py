@@ -7,5 +7,5 @@ Provides play_helpers version information.
 
 from incremental import Version
 
-__version__ = Version("play_helpers", 6, 0, 3)
+__version__ = Version("play_helpers", 6, 0, 3, dev=1)
 __all__ = ["__version__"]
