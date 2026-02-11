@@ -27,6 +27,8 @@ install_reqs = [
     'requests',
     'pycryptodome',
     'ruamel.yaml',
+    'sphinx',
+    'sphinx_rtd_theme',
 ]
 
 # build-time dependencies

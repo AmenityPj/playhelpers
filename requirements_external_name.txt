@@ -22,3 +22,9 @@ pycryptodome
 
 # YML API
 ruamel.yaml
+
+# sphinx Docs
+sphinx
+
+# sphinx Docs Theme
+sphinx_rtd_theme
