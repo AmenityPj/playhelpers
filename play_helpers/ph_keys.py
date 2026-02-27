@@ -208,8 +208,11 @@ class PhKeys:
 
     #
     LOGIN_USER_NAME = 'login_user_name'
-    LOGIN_USER_NAME = 'login_pass_word'
-
+    LOGIN_PASS_WORD = 'login_pass_word'
+    #
+    USERNAME = 'username'
+    PASSWORD = 'password'
+    #
     INFO = 'info'
     VERSION = 'version'
     MODE = 'mode'

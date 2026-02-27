@@ -10,7 +10,8 @@ Welcome to Play Helpers's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   # Add other documentation files here (e.g., modules, tutorials)
+.. include:: ../README.rst
 
 Indices and tables
 ==================
