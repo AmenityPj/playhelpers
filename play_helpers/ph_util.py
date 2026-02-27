@@ -3,6 +3,7 @@ import copy
 import ctypes
 import enum
 import fnmatch
+import importlib
 import inspect
 import json
 import math
@@ -20,7 +21,8 @@ from datetime import datetime
 from io import TextIOWrapper, StringIO
 
 import pandas as pd
-import pkg_resources
+# import pkg_resources
+from importlib.metadata import distribution, PackageNotFoundError
 import requests
 import tzlocal
 from packaging import version
@@ -2164,9 +2166,17 @@ class PhUtil:
         :param minimum_version_required:
         :return:
         """
+        # try:
+        #     module_obj = pkg_resources.get_distribution(module_name)
+        # except pkg_resources.DistributionNotFound as e:
+        #     print(f"An exception occurred: {e}")
+        #     return 'None'
+        # module_version = module_obj.version
+        # module_version = version.parse(module_version)
+
         try:
-            module_obj = pkg_resources.get_distribution(module_name)
-        except pkg_resources.DistributionNotFound as e:
+            module_obj = distribution(module_name)
+        except PackageNotFoundError as e:
             print(f"An exception occurred: {e}")
             return 'None'
         module_version = module_obj.version
