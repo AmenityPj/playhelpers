@@ -538,8 +538,10 @@ Sample Param with None Default Value; include_none=True; None is Default
 -------------------------------------------------- test_chars_to_utf8 --------------------------------------------------
 ---------------------------------------------------- encoding: ascii ---------------------------------------------------
 input_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag ���BF31��� :
-	output_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag ���BF31��� 
----------------------------------------------------- encoding: utf-8 ---------------------------------------------------
+	output_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag ���
+	BF31��� 
+--------
+-------------------------------------------- encoding: utf-8 ---------------------------------------------------
 input_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag ‘BF31’ :
 	output_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag 'BF31' 
 ------------------------------------------------- encoding: ISO-8859-1 -------------------------------------------------

@@ -1,9 +1,10 @@
+from collections import OrderedDict
+
 import copy
 import os
 import sys
 import time
 import unittest
-from collections import OrderedDict
 
 import play_helpers
 from play_helpers.ph_constants import PhConstants
@@ -927,4 +928,18 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        # separator
+        msg = [
+            '',
+            '=' * 30,
+            'ERROR DETECTED',
+            '=' * 30,
+            str(e),
+            '',
+        ]
+        sys.stderr.write('\n'.join(msg))
+        # 2. Re-raise the error to let the full traceback print to stderr
+        raise

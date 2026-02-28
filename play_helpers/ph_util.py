@@ -1357,6 +1357,7 @@ class PhUtil:
             chunk_size = 2
             return [cls.hex_str_to_dec(hex_str[i:i + chunk_size], signed_byte_handling=signed_byte_handling) for i in
                     range(0, len(hex_str), chunk_size)]
+        return hex_str
 
     @classmethod
     def rstrip_hex_str(cls, hex_str):

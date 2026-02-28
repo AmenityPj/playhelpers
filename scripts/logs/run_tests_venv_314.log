@@ -1,0 +1,569 @@
+------------------------------------------------------- test_temp ------------------------------------------------------
+----------------------------------------------------- test_version -----------------------------------------------------
+-------------------------------------------------- tool_version=1.0.1 --------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:428968, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+-----------------------------------------------------------  -----------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:429526, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+--------------------------------------------------- tool_version=None --------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:429930, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is 
+--------------------------------------------------------------------------------
+------------------------------------------------ fetch_tool_version=True -----------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:430366, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+An exception occurred: No package metadata was found for playhelpers
+playhelpers version is vNone
+----------------------------------------------- fetch_tool_version=False -----------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:433311, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v1.0.1
+------------------------------------------------ no_additional_info=True -----------------------------------------------
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+----------------------------------------------- no_additional_info=False -----------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:433776, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+----------------------------------------------------- with_ip=True -----------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:47:434193, IST (GMT+0530)
+--------------------------------------------------------------------------------
+IPV4 is 49.207.151.91
+IPV6 is 49.207.151.91
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+----------------------------------------------------- with_ip=False ----------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:49:420289, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+------------------------------------------------- with_git_summary=True ------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:49:420703, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+------------------------------------------------ with_git_summary=False ------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:49:421098, IST (GMT+0530)
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+---------------------------------------------- with_git_detailed_info=True ---------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:49:421578, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+cat: '..\.git\HEAD': No such file or directory
+Git Details are:
+git_rev_parse_hash: b0283e97caaf81c77f2990b35abaf8441fb87508
+git_rev_parse_short_hash: b0283e9
+git_rev_parse_branch: main
+git_describe: v6.0.3.dev1-4-gb0283e9
+git_describe_always: v6.0.3.dev1-4-gb0283e9
+git_summary: b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+git_log_commit_hash: b0283e97caaf81c77f2990b35abaf8441fb87508
+git_log_commit_short_hash: b0283e9
+git_log_tree_hash: 4202db2a4e9bf801d7671d8c23b53651c41f3dbe
+git_log_tree_short_hash: 4202db2
+git_log_parent_hash: d26e1cdce26bf843efa9b97ff007bcd0cb4ec181
+git_log_parent_short_hash: d26e1cd
+git_log_head: (HEAD -> main)
+git_log_time: 2026-02-27 10:56:05 +0530
+git_log_commiter_name: imPratik
+git_log_commiter_email: impratikjaiswal@gmail.com
+git_log_message: drop usage of pkg_resources
+git_symbolic-ref_head: refs/heads/main
+git_local_file_head: None
+git_describe_always_path: v6.0.3.dev1-4-gb0283e9
+git_describe_always_pathlib: v6.0.3.dev1-4-gb0283e9
+git_local_file_head_path: ref: refs/heads/main
+git_local_file_head_pathlib: ref: refs/heads/main
+
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+--------------------------------------------- with_git_detailed_info=False ---------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:50:798232, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+Test Tool version is v1.0.1
+--------------------------------------------------------------------------------
+----------------------------------------------- version_parameters_dicts -----------------------------------------------
+Python version is v3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_314\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Saturday, Feb 28 2026, 13:31:50:798679, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is b0283e9;  (HEAD -> main); 2026-02-27 10:56:05 +0530; imPratik <impratikjaiswal@gmail.com>; drop usage of pkg_resources
+--------------------------------------------------------------------------------
+playhelpers version is v6.0.3.dev3
+--------------------------------------------------------------------------------
+packaging version is v26.0
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+pandas version is v3.0.1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+psutil version is v7.2.2
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+tzlocal version is v5.3.1
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+requests version is v2.32.5
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+pycryptodome version is v3.23.0
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ruamel.yaml version is v0.19.1
+--------------------------------------------------------------------------------
+------------------------ parameters_pool=version_parameters_pool, get_only=True, dic_format=True -----------------------
+Pool:
+playhelpers: v6.0.3.dev3
+packaging: v26.0
+pandas: v3.0.1
+psutil: v7.2.2
+tzlocal: v5.3.1
+requests: v2.32.5
+pycryptodome: v3.23.0
+ruamel.yaml: v0.19.1
+--------------------------------------------------- test_parse_config --------------------------------------------------
+--------------------------------------------------- Simple Data Types --------------------------------------------------
+Before:
+remarks: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str01: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str02:  Simple Data Types ; type: <class 'str'>, length: 19
+remarks_str03:   Simple Data Types  ; type: <class 'str'>, length: 21
+remarks_str04: "    Simple Data Types  "  ; type: <class 'str'>, length: 27
+remarks_str05:    """Simple Data Types  """; type: <class 'str'>, length: 28
+remarks_str06:  '     Simple Data Types ' ; type: <class 'str'>, length: 27
+remarks_str07: 86020102; type: <class 'str'>, length: 8
+remarks_str08: False; type: <class 'str'>, length: 5
+remarks_str09: True; type: <class 'str'>, length: 4
+remarks_str0A: 86020102.0; type: <class 'str'>, length: 10
+remarks_str0B: None; type: <class 'str'>, length: 4
+item_s01: False; type: <class 'str'>, length: 5
+item_s02: False; type: <class 'bool'>, length: 5
+item_s03: false; type: <class 'str'>, length: 5
+item_s04: Fals e; type: <class 'str'>, length: 6
+item_s05: FaLse; type: <class 'str'>, length: 5
+item_s06: False ; type: <class 'str'>, length: 6
+item_s07:  False ; type: <class 'str'>, length: 7
+item_s08: "False"; type: <class 'str'>, length: 7
+item_s11: True; type: <class 'str'>, length: 4
+item_s12: True; type: <class 'bool'>, length: 4
+item_s13: true; type: <class 'str'>, length: 4
+item_s14: Tr ue; type: <class 'str'>, length: 5
+item_s15: TruE; type: <class 'str'>, length: 4
+item_s16: True ; type: <class 'str'>, length: 5
+item_s17:    True ; type: <class 'str'>, length: 8
+item_s18: "True"; type: <class 'str'>, length: 6
+item_s21: yes; type: <class 'str'>, length: 3
+item_s22: Yes; type: <class 'str'>, length: 3
+item_s23: no; type: <class 'str'>, length: 2
+item_s24: No; type: <class 'str'>, length: 2
+item_s25:  ; type: <class 'str'>, length: 1
+item_s26: ; type: <class 'str'>, length: 0
+item_s27: ; type: <class 'str'>, length: 0
+item_s31: 86020102; type: <class 'str'>, length: 8
+item_s32: 086020102; type: <class 'str'>, length: 9
+item_s33: 8 6020102; type: <class 'str'>, length: 9
+item_s34: 860201020 ; type: <class 'str'>, length: 10
+item_s35:    860201020 ; type: <class 'str'>, length: 13
+item_s36: 86020102.0; type: <class 'str'>, length: 10
+item_s37: 86020102.0 ; type: <class 'str'>, length: 11
+item_s38: 
+                            86020102.0
+                        ; type: <class 'str'>, length: 64
+item_s39: 86020102.064654767; type: <class 'str'>, length: 18
+item_s3A: '86020102'; type: <class 'str'>, length: 10
+item_s3B: "86020102"; type: <class 'str'>, length: 10
+item_s41: none; type: <class 'str'>, length: 4
+item_s42: None; type: <class 'NoneType'>, length: 4
+item_s43: None; type: <class 'str'>, length: 4
+item_s44: NONE; type: <class 'str'>, length: 4
+
+After:
+remarks: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str01: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str02: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str03: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str04: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str05: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str06: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str07: 86020102; type: <class 'int'>, length: 8
+remarks_str08: False; type: <class 'bool'>, length: 5
+remarks_str09: True; type: <class 'bool'>, length: 4
+remarks_str0A: 86020102.0; type: <class 'float'>, length: 10
+remarks_str0B: None; type: <class 'NoneType'>, length: 4
+item_s01: False; type: <class 'bool'>, length: 5
+item_s02: False; type: <class 'bool'>, length: 5
+item_s03: False; type: <class 'bool'>, length: 5
+item_s04: Fals e; type: <class 'str'>, length: 6
+item_s05: False; type: <class 'bool'>, length: 5
+item_s06: False; type: <class 'bool'>, length: 5
+item_s07: False; type: <class 'bool'>, length: 5
+item_s08: False; type: <class 'bool'>, length: 5
+item_s11: True; type: <class 'bool'>, length: 4
+item_s12: True; type: <class 'bool'>, length: 4
+item_s13: True; type: <class 'bool'>, length: 4
+item_s14: Tr ue; type: <class 'str'>, length: 5
+item_s15: True; type: <class 'bool'>, length: 4
+item_s16: True; type: <class 'bool'>, length: 4
+item_s17: True; type: <class 'bool'>, length: 4
+item_s18: True; type: <class 'bool'>, length: 4
+item_s21: yes; type: <class 'str'>, length: 3
+item_s22: Yes; type: <class 'str'>, length: 3
+item_s23: no; type: <class 'str'>, length: 2
+item_s24: No; type: <class 'str'>, length: 2
+item_s25: ; type: <class 'str'>, length: 0
+item_s26: ; type: <class 'str'>, length: 0
+item_s27: ; type: <class 'str'>, length: 0
+item_s31: 86020102; type: <class 'int'>, length: 8
+item_s32: 086020102; type: <class 'str'>, length: 9
+item_s33: 8 6020102; type: <class 'str'>, length: 9
+item_s34: 860201020; type: <class 'int'>, length: 9
+item_s35: 860201020; type: <class 'int'>, length: 9
+item_s36: 86020102.0; type: <class 'float'>, length: 10
+item_s37: 86020102.0; type: <class 'float'>, length: 10
+item_s38: 86020102.0; type: <class 'float'>, length: 10
+item_s39: 86020102.06465477; type: <class 'float'>, length: 17
+item_s3A: 86020102; type: <class 'int'>, length: 8
+item_s3B: 86020102; type: <class 'int'>, length: 8
+item_s41: None; type: <class 'NoneType'>, length: 4
+item_s42: None; type: <class 'NoneType'>, length: 4
+item_s43: None; type: <class 'NoneType'>, length: 4
+item_s44: None; type: <class 'NoneType'>, length: 4
+
+After Exclude:
+remarks: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str01: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str02: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str03: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str04: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str05: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str06: Simple Data Types; type: <class 'str'>, length: 17
+remarks_str07: 86020102; type: <class 'str'>, length: 8
+remarks_str08: False; type: <class 'str'>, length: 5
+remarks_str09: True; type: <class 'str'>, length: 4
+remarks_str0A: 86020102.0; type: <class 'str'>, length: 10
+remarks_str0B: None; type: <class 'NoneType'>, length: 4
+item_s01: False; type: <class 'bool'>, length: 5
+item_s02: False; type: <class 'bool'>, length: 5
+item_s03: False; type: <class 'bool'>, length: 5
+item_s04: Fals e; type: <class 'str'>, length: 6
+item_s05: False; type: <class 'bool'>, length: 5
+item_s06: False; type: <class 'bool'>, length: 5
+item_s07: False; type: <class 'bool'>, length: 5
+item_s08: False; type: <class 'bool'>, length: 5
+item_s11: True; type: <class 'bool'>, length: 4
+item_s12: True; type: <class 'bool'>, length: 4
+item_s13: True; type: <class 'bool'>, length: 4
+item_s14: Tr ue; type: <class 'str'>, length: 5
+item_s15: True; type: <class 'bool'>, length: 4
+item_s16: True; type: <class 'bool'>, length: 4
+item_s17: True; type: <class 'bool'>, length: 4
+item_s18: True; type: <class 'bool'>, length: 4
+item_s21: yes; type: <class 'str'>, length: 3
+item_s22: Yes; type: <class 'str'>, length: 3
+item_s23: no; type: <class 'str'>, length: 2
+item_s24: No; type: <class 'str'>, length: 2
+item_s25: ; type: <class 'str'>, length: 0
+item_s26: ; type: <class 'str'>, length: 0
+item_s27: ; type: <class 'str'>, length: 0
+item_s31: 86020102; type: <class 'int'>, length: 8
+item_s32: 086020102; type: <class 'str'>, length: 9
+item_s33: 8 6020102; type: <class 'str'>, length: 9
+item_s34: 860201020; type: <class 'int'>, length: 9
+item_s35: 860201020; type: <class 'int'>, length: 9
+item_s36: 86020102.0; type: <class 'float'>, length: 10
+item_s37: 86020102.0; type: <class 'float'>, length: 10
+item_s38: 86020102.0; type: <class 'float'>, length: 10
+item_s39: 86020102.06465477; type: <class 'float'>, length: 17
+item_s3A: 86020102; type: <class 'int'>, length: 8
+item_s3B: 86020102; type: <class 'int'>, length: 8
+item_s41: None; type: <class 'NoneType'>, length: 4
+item_s42: None; type: <class 'NoneType'>, length: 4
+item_s43: None; type: <class 'NoneType'>, length: 4
+item_s44: None; type: <class 'NoneType'>, length: 4
+
+-------------------------------------------------- Complex Data Types --------------------------------------------------
+Before:
+item_c2:
+brown: black
+dog: cattttttt
+item_c4:
+
+item_c6:
+1:
+brown: black
+
+2:
+dog: cattttttt
+
+item_c8:
+
+remarks: Complex Data Types; type: <class 'str'>, length: 18
+item_c1: [{'brown': 'black'}, {'dog': 'cattttttt'}]; type: <class 'str'>, length: 42
+item_c3: []; type: <class 'str'>, length: 2
+item_c5: {1: {'brown': 'black'},2: {'dog': 'cattttttt'}}; type: <class 'str'>, length: 47
+item_c7: {}; type: <class 'str'>, length: 2
+After:
+item_c1:
+brown: black
+dog: cattttttt
+item_c2:
+brown: black
+dog: cattttttt
+item_c3:
+
+item_c4:
+
+item_c5:
+1:
+brown: black
+
+2:
+dog: cattttttt
+
+item_c6:
+1:
+brown: black
+
+2:
+dog: cattttttt
+
+item_c7:
+
+item_c8:
+
+remarks: Complex Data Types; type: <class 'str'>, length: 18
+After Exclude:
+item_c1:
+brown: black
+dog: cattttttt
+item_c2:
+brown: black
+dog: cattttttt
+item_c3:
+
+item_c4:
+
+item_c5:
+1:
+brown: black
+
+2:
+dog: cattttttt
+
+item_c6:
+1:
+brown: black
+
+2:
+dog: cattttttt
+
+item_c7:
+
+item_c8:
+
+remarks: Complex Data Types; type: <class 'str'>, length: 18
+--------------------------------------------------- test_expired_attr --------------------------------------------------
+---------------------------------------------------- test_doc_string ---------------------------------------------------
+--------------------------------------------------------- help ---------------------------------------------------------
+Help on method hash_str in module play_helpers.ph_crypto:
+
+hash_str(
+    msg,
+    hash_algo='sha256',
+    hex_digest=True,
+    encoding='utf-8',
+    encoding_errors='replace'
+) class method of play_helpers.ph_crypto.PhCrypto
+    :param msg:
+    :param hash_algo: check hash_algos_list()
+
+    'md5-sha1', 'sha3_224', 'sha3_256', 'shake_128', 'sm3', 'sha512', 'sha3_384', 'sha256', 'sha384',
+    'whirlpool', 'sha3_512', 'mdc2', 'sha1', 'md4', 'sha512_256', 'ripemd160', 'blake2s', 'blake2b',
+    'sha512_224', 'md5', 'shake_256', 'sha224'
+    :param hex_digest:
+    :param encoding:
+    :param encoding_errors:
+
+    :return:
+
+-------------------------------------------------------- __doc__ -------------------------------------------------------
+
+:param msg:
+:param hash_algo: check hash_algos_list()
+
+'md5-sha1', 'sha3_224', 'sha3_256', 'shake_128', 'sm3', 'sha512', 'sha3_384', 'sha256', 'sha384',
+'whirlpool', 'sha3_512', 'mdc2', 'sha1', 'md4', 'sha512_256', 'ripemd160', 'blake2s', 'blake2b',
+'sha512_224', 'md5', 'shake_256', 'sha224'
+:param hex_digest:
+:param encoding:
+:param encoding_errors:
+
+:return:
+
+------------------------------------------------ test_get_help_for_param -----------------------------------------------
+Sample Param
+Sample Param with Valid Default Value; 5 is Default
+Sample Param with None Default Value; include_none=False
+Sample Param with None Default Value; include_none=True; None is Default
+-------------------------------------------------- test_chars_to_utf8 --------------------------------------------------
+---------------------------------------------------- encoding: ascii ---------------------------------------------------
+
+==============================
+ERROR DETECTED
+==============================
+[Errno 2] No such file or directory: 'D:\\Other\\Github_Self\\playhelpers\\res\\test_chars_to_utf8.asn'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\Other\Github_Self\playhelpers\play_helpers\test\test.py", line 932, in <module>
+    main()
+    ~~~~^^
+  File "D:\Other\Github_Self\playhelpers\play_helpers\test\test.py", line 920, in main
+    test_functions(ph_time)
+    ~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Other\Github_Self\playhelpers\play_helpers\test\test.py", line 874, in test_functions
+    test_chars_to_utf8()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Other\Github_Self\playhelpers\play_helpers\test\test.py", line 459, in test_chars_to_utf8
+    with open(os.sep.join([PhUtil.path_default_res_folder, target_file_name]),
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encoding=encoding, errors=PhDefaults.CHAR_ENCODING_ERRORS) as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Other\\Github_Self\\playhelpers\\res\\test_chars_to_utf8.asn'
