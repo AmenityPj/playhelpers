@@ -1,8 +1,7 @@
 import binascii
 import hashlib
-from itertools import cycle
-
 from Crypto.Cipher import AES
+from itertools import cycle
 
 from play_helpers.ph_defaults import PhDefaults
 from play_helpers.ph_util import PhUtil
@@ -228,11 +227,11 @@ class PhCrypto:
         Consider the case:
             89446172120000011  : 17 Chars, Luhn digit 4
             894461721200000114 : 18 Chars, Luhn digit 6
+
         :param str_plain_data:
         :param min_len_iccid_wo_luhn:
         :return:
         """
-        #
         if (len(str_plain_data) == min_len_iccid_wo_luhn) or (not (cls.validate_luhn_digit(str_plain_data))):
             # luhn has to be added, as length is minimum
             # Lugn Digit is not Present
@@ -241,6 +240,11 @@ class PhCrypto:
 
     @classmethod
     def remove_luhn_if_present(cls, str_plain_data):
+        """
+
+        :param str_plain_data:
+        :return:
+        """
         if cls.validate_luhn_digit(str_plain_data):  # Lugn Digit is Present
             str_plain_data = str_plain_data[0:-1]
         return str_plain_data

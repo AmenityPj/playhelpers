@@ -1,7 +1,6 @@
 # -*- coding: UTF−8 -*-
 
 import os
-
 from setuptools import setup, find_packages
 
 from play_helpers.ph_constants_config import PhConfigConst
@@ -12,7 +11,9 @@ if not packages:
     print(f'Selecting Hardcoded Packages')
     packages = [
         PhConfigConst.TOOL_PACKAGE_NAME,
+        PhConfigConst.TOOL_TEST_PACKAGE_NAME,
     ]
+# Packages are ['play_helpers', 'play_helpers.test']
 print(f'Packages are {packages}')
 
 # run-time dependencies

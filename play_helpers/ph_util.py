@@ -1,30 +1,28 @@
+from importlib.metadata import distribution, PackageNotFoundError
+
 import base64
 import copy
 import ctypes
 import enum
 import fnmatch
-import importlib
 import inspect
 import json
 import math
 import os
+import pandas as pd
 import random
 import re
+import requests
 import secrets
 import shutil
 import string
 import sys
 import time
+import tzlocal
 import zipfile
 from binascii import unhexlify
 from datetime import datetime
 from io import TextIOWrapper, StringIO
-
-import pandas as pd
-# import pkg_resources
-from importlib.metadata import distribution, PackageNotFoundError
-import requests
-import tzlocal
 from packaging import version
 from pandas import DataFrame, Series
 from ruamel.yaml.scalarstring import PreservedScalarString
@@ -987,6 +985,7 @@ class PhUtil:
         Usage: python <programName.py> <folderName>
 
         glob: https://en.wikipedia.org/wiki/Glob_(programming)
+
         :param top:
         :param traverse_mode:
         :param include_files: applicable only when traverseMode is 'Regex'

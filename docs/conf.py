@@ -10,10 +10,10 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
 
+data = sys.path.insert(0, os.path.abspath(os.pardir))
 
 # -- Project information -----------------------------------------------------
 
@@ -22,8 +22,7 @@ copyright = '2026, Amenity Pj'
 author = 'Amenity Pj'
 
 # The full version, including alpha/beta/rc tags
-release = '6.0.0'
-
+release = '7.0.0'
 
 # -- General configuration ---------------------------------------------------
 
@@ -38,6 +37,18 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
+autodoc_default_options = {
+    'members': True,  # Document all members
+    'undoc-members': True,  # Include members without docstrings
+    'private-members': False,  # Hide members starting with _
+    'show-inheritance': True,  # Show base classes
+    'special-members': '__init__',  # Explicitly include __init__
+}
+
+autodoc_member_order = 'alphabetical'
+
+autoclass_content = 'both'  # Concatenate class and __init__ docstrings
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -45,7 +56,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 
 # -- Options for HTML output -------------------------------------------------
 

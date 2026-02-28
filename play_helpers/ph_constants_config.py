@@ -1,5 +1,5 @@
 from ._git_info import GIT_SUMMARY
-from ._tool_name import TOOL_NAME, TOOL_TITLE, TOOL_PACKAGE_NAME
+from ._tool_name import TOOL_NAME, TOOL_TITLE, TOOL_PACKAGE_NAME, TOOL_TEST_PACKAGE_NAME
 from .ph_defaults import PhDefaults
 
 _run_time = False
@@ -18,6 +18,7 @@ class PhConfigConst:
     TOOL_NAME = TOOL_NAME
     TOOL_TITLE = TOOL_TITLE
     TOOL_PACKAGE_NAME = TOOL_PACKAGE_NAME
+    TOOL_TEST_PACKAGE_NAME = TOOL_TEST_PACKAGE_NAME
     TOOL_GIT_SUMMARY = GIT_SUMMARY
     TOOL_DESCRIPTION = f'A Python software package suite to provide various utility functions.'
     TOOL_META_DESCRIPTION = f'{TOOL_DESCRIPTION}'
