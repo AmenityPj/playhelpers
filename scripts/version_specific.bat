@@ -4,6 +4,8 @@ set /p package_name=<.\..\package_name.txt
 REM Constant Part
 set package_path=.\..\%package_name%
 
+REM Sample: python -m incremental.update --path=.\..\play_helpers play_helpers --dev
+REM Sample: python -m incremental.update --path=.\..\play_helpers play_helpers --patch
 set cmd_data=python -m incremental.update --path=%package_path% %package_name%
 call activate_vir_env.bat
 echo %2
