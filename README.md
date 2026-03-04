@@ -13,6 +13,8 @@ This package contains common utility functions written in python.
 [![PyPI - Version](https://img.shields.io/pypi/v/playhelpers?label=pypi%20release)](https://pypi.org/project/playhelpers)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/playhelpers)](https://pypi.org/project/playhelpers)
 
+[![Read the Docs Direct](https://app.readthedocs.org/projects/playhelpers/badge/?version=latest)](https://playhelpers.readthedocs.io/en/latest/)
+
 [![GitHub Release](https://img.shields.io/github/v/release/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
 [![GitHub commits since latest release](https://img.shields.io/github/commits-since/AmenityPj/playhelpers/latest)](https://github.com/AmenityPj/playhelpers/commits/main)
@@ -54,9 +56,9 @@ Steps can be found [here](https://github.com/AmenityPj/playhelpers/blob/main/HOW
 
 There are various ways to Get Started:
 
-  - Online Mode
+- Online Mode
     - Website [![Static Badge](https://img.shields.io/badge/amenitypj.in-a)](https://amenitypj.in) can be used
-  - Offline Mode (Requires Download / Cloning of the Repo)
+- Offline Mode (Requires Download / Cloning of the Repo)
     - Code (as a library) can be directly imported from ```playhelpers/ph_*.py``` using any IDE
 
 # Help
@@ -64,6 +66,6 @@ There are various ways to Get Started:
 Issue tracker can be found [here](CONTRIBUTING.md#issue-tracker).
 
 # Contributing
- - Code of Conduct can be found [here](CODE_OF_CONDUCT.md).
- - Contributing Guidelines can be found [here](CONTRIBUTING.md).
 
+- Code of Conduct can be found [here](CODE_OF_CONDUCT.md).
+- Contributing Guidelines can be found [here](CONTRIBUTING.md).

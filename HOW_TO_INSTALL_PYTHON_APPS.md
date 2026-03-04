@@ -19,15 +19,16 @@ All Required packages are listed in requirements.txt, which is further bifurcate
 4. ```requirements_internal_tool.txt```Required Internal Tools
 
 Few dedicated Basic Scripts are also present under <i>scripts</i> directory.
-   - Currently, Scripts are targeting <i>venv</i> (virtual environment directory, Present in parallel of <i>scripts</i> directory)
-   - However, the same can be modified as per user choice.
-    
-   **Note:** installing library/tool in virtual environment is optional but preferred.
+- Currently, Scripts are targeting <i>venv</i> (virtual environment directory, Present in parallel of <i>scripts</i>
+directory)
+- However, the same can be modified as per user choice.
+
+  **Note:** installing library/tool in virtual environment is optional but preferred.
 
 Automatic installation using dedicated scripts (Recommended)
 ----------------------
 
-An installation script is (requirements_install.bat / requirements_install.sh) available in <i>scripts</i> directory.
+An installation script is (install_requirements.bat / install_requirements.sh) available in <i>scripts</i> directory.
 As soon as you have cloned or downloaded the repository, you can use it to install
 the tool/library within your Python package directory.
 
@@ -63,7 +64,7 @@ pip install --upgrade playhelpers
 pip install -r requirements.txt --upgrade
 ```
 
-An installation script is (requirements_install.bat / requirements_install.sh) available.
+An installation script is (install_requirements.bat / install_requirements.sh) available.
 As soon as you have cloned or downloaded the repository, you can use it to install
 the tool/library within your Python package directory.
 
@@ -82,5 +83,5 @@ Installation Troubleshoot
 ----------------------
 
 If requirements Installation is failed due to *ModuleNotFoundError: No Module named 'incremental'*
-Try installing build requirements using dedicated script (requirements_install_build.bat /
-requirements_install_build.sh) prior to actual Installation.
+Try installing build requirements using dedicated script (install_requirements_build.bat /
+install_requirements_build.sh) prior to actual Installation.
