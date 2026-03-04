@@ -13,7 +13,8 @@ This package contains common utility functions written in python.
 [![PyPI - Version](https://img.shields.io/pypi/v/playhelpers?label=pypi%20release)](https://pypi.org/project/playhelpers)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/playhelpers)](https://pypi.org/project/playhelpers)
 
-[![Read the Docs Direct](https://app.readthedocs.org/projects/playhelpers/badge/?version=latest)](https://playhelpers.readthedocs.io/en/latest/)
+[![docs - read the docs](https://img.shields.io/readthedocs/playhelpers?label=read%20the%20docs)](https://playhelpers.readthedocs.io/en/latest/)
+[![docs - github pages](https://img.shields.io/github/actions/workflow/status/AmenityPj/playhelpers/python-github-pages.yml?label=github%20pages)](https://amenitypj.github.io/playhelpers)
 
 [![GitHub Release](https://img.shields.io/github/v/release/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
@@ -23,7 +24,6 @@ This package contains common utility functions written in python.
 
 [![Publish Python Package to PyPI](https://github.com/AmenityPj/playhelpers/actions/workflows/python-publish-pypi.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-publish-pypi.yml)
 [![Test Build with variety of Pythons](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml)
-[![Publish Jekyll site to GitHub Pages](https://github.com/AmenityPj/playhelpers/actions/workflows/python-github-pages.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-github-pages.yml)
 
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AmenityPj/playhelpers/total)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/stargazers)
@@ -33,9 +33,6 @@ This package contains common utility functions written in python.
 
 [![Static Badge](https://img.shields.io/badge/amenitypj.in-a?label=website)](https://amenitypj.in)
 [![Website](https://img.shields.io/website?url=https://amenitypj.in&label=status)](https://amenitypj.in)
-
-[![Static Badge](https://img.shields.io/badge/amenitypj.github.io/playhelpers-a?label=gihub%20pages)](https://amenitypj.github.io/playhelpers)
-[![Website](https://img.shields.io/website?url=https://amenitypj.github.io/playhelpers&label=status)](https://amenitypj.github.io/playhelpers)
 
 [![GitHub Sponsors](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub)](https://github.com/sponsors/impratikjaiswal)
 [![GitHub User's stars](https://img.shields.io/github/stars/impratikjaiswal)](https://github.com/impratikjaiswal/stargazers)
