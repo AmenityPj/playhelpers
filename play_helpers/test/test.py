@@ -19,6 +19,8 @@ from play_helpers.ph_util import PhUtil
 from play_helpers.test import test_util
 from play_helpers.test.ph_constants_test import PhTestConst
 
+_unit_test_mode = False
+
 
 def test_version():
     PhUtil.print_heading()
@@ -228,6 +230,7 @@ def test_remarks_append_pre():
 
 def test_temp():
     PhUtil.print_heading()
+    # test_open_bugs()
 
 
 def test_open_bugs():
@@ -852,9 +855,15 @@ def test_last_modification_time():
         path_current_script,
         name_current_script,
     ]
+    # TODO: Check if below approach (loop handling) can be made generic
     for _input_data_set in input_data_set:
-        for input_data in PhUtil.normalise_list(_input_data_set):
-            print(f'{input_data}: {PhUtil.last_modification_time(file_or_folder_path=input_data)}')
+        _input_data_set_items = PhUtil.normalise_list(_input_data_set)
+        if isinstance(_input_data_set_items, list):
+            for input_data in _input_data_set_items:
+                print(f'{input_data}: {PhUtil.last_modification_time(file_or_folder_path=input_data)}')
+        else:
+            print(
+                f'{_input_data_set_items}: {PhUtil.last_modification_time(file_or_folder_path=_input_data_set_items)}')
         print(PhConstants.SEPERATOR_TWO_DATA_SET)
 
 
@@ -952,15 +961,17 @@ def main():
     """
     Process
     """
-    #	
-    # Temp Test Cases
-    #	
-    # test_temp()
-    # test_open_bugs()
-    #
-    # Regular Test Cases
-    #
-    test_functions(ph_time)
+    # _unit_test_mode = True
+    if _unit_test_mode:
+        """
+        Temp Test Cases
+        """
+        test_temp()
+    else:
+        """
+        Regular Test Cases
+        """
+        test_functions(ph_time)
     """
     Wrap up 
     """

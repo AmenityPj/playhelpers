@@ -262,28 +262,68 @@ class PhUtil:
         print_or_log(data)
 
     @classmethod
-    def print_input_output(cls, input_data, output_data, log=None, verbose=False, output_remarks=None,
-                           input_remark=None):
+    def print_output(cls, heading=None, output_data=None, log=None, sep_data=None, sep_data_set=None):
+        """
+
+        :param heading:
+        :param output_data:
+        :param log:
+        :param sep_data:
+        :param sep_data_set:
+        :return:
+        """
+        cls.print_input_output(output_data=output_data, log=log, heading=heading, mode='output_w_heading',
+                               sep_data=sep_data, sep_data_set=sep_data_set)
+
+    @classmethod
+    def print_input_output(cls, input_data=None, output_data=None, log=None, verbose=False, output_remarks=None,
+                           input_remark=None, mode='input_w_output', heading=None, sep_data=None, sep_data_set=None):
+        """
+
+        :param input_data:
+        :param output_data:
+        :param log:
+        :param verbose:
+        :param output_remarks:
+        :param input_remark:
+        :param mode:
+        :param heading:
+        :param sep_data:
+        :param sep_data_set:
+        :return:
+        """
+        allowed_modes = [
+            'input_w_output',
+            'output_w_heading'
+        ]
         if not input_data and not output_data:
             return
-        if not isinstance(output_data, list):
-            # Cast To List
-            output_data = [output_data]
-        output_count = len(output_data)
-        output_remarks = PhUtil.extend_list(cls.set_if_none(output_remarks, []), expected_length=output_count)
+        mode = cls.set_if_unknown(current_value=mode, known_values=allowed_modes)
+        sep_data = cls.set_if_none(current_value=sep_data, new_value=PhConstants.SEPERATOR_TWO_LINES)
+        sep_data_set = cls.set_if_none(current_value=sep_data_set, new_value=PhConstants.SEPERATOR_TWO_DATA_SET)
+        msg = ''
         print_or_log = log.info if log else print
-        EXTRA_NEW_LINE = ''
-        if verbose:
-            input_str = f'Remarks: {input_remark}; input: {input_data}; type: {type(input_data)}, length: {len(str(input_data))}'
-            output_str = [f'Remarks: {y}; output: {x}; type: {type(x)}, length: {len(str(x))}' for x, y in
-                          zip(output_data, output_remarks)]
-        else:
-            input_str = f'Remarks: {input_remark}; input: {input_data}';
-            output_str = [f'Remarks: {y}; output: {x}' for x, y in zip(output_data, output_remarks)]
-            # msg = f'input: {input_data}; output: {output_data}'
-        # with Additional new line
-        # TODO: Additional new line, can be omitted for scenario where single output if getting listed in normal mode
-        msg = '\n'.join(cls.normalise_list([input_str, output_str, '']))
+        if mode == 'input_w_output':
+            if not isinstance(output_data, list):
+                # Cast To List
+                output_data = [output_data]
+            output_count = len(output_data)
+            output_remarks = PhUtil.extend_list(cls.set_if_none(output_remarks, []), expected_length=output_count)
+            if verbose:
+                input_str = f'Remarks: {input_remark}; input: {input_data}; type: {type(input_data)}, length: {len(str(input_data))}'
+                output_str = [f'Remarks: {y}; output: {x}; type: {type(x)}, length: {len(str(x))}' for x, y in
+                              zip(output_data, output_remarks)]
+            else:
+                input_str = f'Remarks: {input_remark}; input: {input_data}';
+                output_str = [f'Remarks: {y}; output: {x}' for x, y in zip(output_data, output_remarks)]
+                # msg = f'input: {input_data}; output: {output_data}'
+            # with Additional new line
+            # TODO: Additional new line, can be omitted for scenario where single output if getting listed in normal mode
+            msg = cls.combine_list_items_lite(list_data=[input_str, output_str], sep_data=sep_data,
+                                              sep_data_set=sep_data_set)
+        if mode == 'output_w_heading':
+            msg = cls.combine_list_items_lite(list_data=[heading, output_data], sep_data=sep_data,
+                                              sep_data_set=sep_data_set)
         print_or_log(msg)
 
     @classmethod
@@ -302,7 +342,7 @@ class PhUtil:
         :param header:
         :param log:
         :param list_as_str:
-        :param check_for_dict_attribute: Force checking of Dict Attribute while checking for iter object. However it may caused "RecursionError" for unhandled types
+        :param check_for_dict_attribute: Force checking of Dict Attribute while checking for iter object. However, it may caused "RecursionError" for unhandled types
 
         For "RecursionError", set this flag as false
         :return:
@@ -474,54 +514,46 @@ class PhUtil:
             cls.print_iter(data, depth_level=depth_level)
 
     @classmethod
-    def get_key_value_pair(cls, key, value, sep=PhConstants.SEPERATOR_ONE_LINE, dic_format=False, print_also=False,
-                           log=None, user_friendly_key=True, pair_is_must=False, length_needed=False):
-        """
-
-        :param length_needed:
-        :param key:
-        :param value:
-        :param sep:
-        :param dic_format:
-        :param print_also:
-        :param log:
-        :param user_friendly_key:
-        :param pair_is_must:
-        :return:
-        """
-        print_or_log = log.info if log else print
-        if key is None:
-            return None
-        if value is None:
-            if pair_is_must is True:
-                return None
-            value = ''
-        if length_needed:
-            if PhKeys.LENGTH not in key:
-                key = f'{key}_{PhKeys.LENGTH}'
-            value = len(str(value))
-        str_data = f'{cls.get_user_friendly_name(key) if user_friendly_key else key}{sep}{value}'
-        if print_also:
-            print_or_log(str_data)
-        if dic_format:
-            return {key: value}
-        return str_data
+    def print_all_installed_distributions(cls, dic_format=False):
+        data = cls.get_all_installed_distributions(dic_format=dic_format)
+        print(f'Total Installed Distributions Count: {len(data)}')
+        cls.print_iter(the_iter=data)
 
     @classmethod
-    def get_tool_name_w_version(cls, tool_name=None, tool_version=None, dic_format=False, fetch_tool_version=None):
-        if fetch_tool_version:
-            tool_version = cls.get_module_version(tool_name)
+    def get_key_value_pair(cls, *args, **kwargs):
+        return _PhCommon.get_key_value_pair(*args, **kwargs)
+
+    get_key_value_pair.__signature__ = inspect.signature(_PhCommon.get_key_value_pair)
+
+    @classmethod
+    def format_tool_name_w_version(cls, tool_name, tool_version, dic_format):
         str_format_keyword = ' version is '
         version_keyword = 'v'
-        tool_name = 'Python' if tool_name is None else tool_name
-        tool_version = sys.version if tool_name == 'Python' else (
-            str(tool_version) if tool_version is not None else None)
         if tool_version:
             version_keyword_needed = False if tool_version.strip().lower().startswith(version_keyword) else True
             tool_version = f'{version_keyword}{tool_version}' if version_keyword_needed else tool_version
+        tool_version = cls.set_if_none(tool_version, PhDefaults.DUMMY_VERSION)
         if dic_format:
             return {tool_name: tool_version}
-        return str_format_keyword.join([tool_name, cls.set_if_none(tool_version)])
+        return str_format_keyword.join([tool_name, tool_version])
+
+    @classmethod
+    def get_tool_name_w_version(cls, tool_name=None, tool_version=None, dic_format=False, fetch_tool_version=None):
+        """
+
+        :param tool_name:
+        :param tool_version:
+        :param dic_format:
+        :param fetch_tool_version:
+        :param list_all_installed:
+        :return:
+        """
+        if fetch_tool_version:
+            tool_version = cls.get_module_version(tool_name)
+        tool_name = 'Python' if tool_name is None else tool_name
+        tool_version = sys.version if tool_name == 'Python' else (
+            str(tool_version) if tool_version is not None else None)
+        return cls.format_tool_name_w_version(tool_name=tool_name, tool_version=tool_version, dic_format=dic_format)
 
     @classmethod
     def print_version(cls, tool_name=None, tool_version=None, fetch_tool_version=False, log=None, parameters_pool=None,
@@ -751,6 +783,44 @@ class PhUtil:
         return cls.set_type_if_different(value, new_type=new_type)
 
     @classmethod
+    def valid_index_of_list(cls, current_list, value_index=None):
+        if current_list is None:
+            return False
+        list_length = len(current_list)
+        return True if -list_length <= value_index < list_length else False
+
+    @classmethod
+    def get_item_from_list(cls, current_list, value_index=None):
+        if current_list is None:
+            return None
+        value_index = cls.set_if_none(value_index, 0)
+        if cls.valid_index_of_list(current_list=current_list, value_index=value_index):
+            return current_list[value_index]
+        if len(current_list) > 0:
+            return current_list[0]
+        return None
+
+    @classmethod
+    def set_if_unknown(cls, current_value, known_values=[], default_value=None, default_value_index=0):
+        """
+
+        :param current_value:
+        :param known_values:
+        :param default_value:
+        :param default_value_index:
+        :return:
+        """
+        if not known_values:
+            return current_value
+        known_values = cls.to_list_lite(obj=known_values)
+        if current_value in known_values:
+            return current_value
+        if default_value:
+            return default_value
+        value = cls.get_item_from_list(current_list=known_values, value_index=default_value_index)
+        return current_value if value is None else value
+
+    @classmethod
     def get_file_name_and_extn(cls, file_path, name_with_out_extn=None, only_extn=None, extn_with_out_dot=None,
                                only_path=None, ext_available=None, path_with_out_extn=None, only_folder_name=None):
         """
@@ -959,9 +1029,16 @@ class PhUtil:
         return time.strftime(time_format, time_value)
 
     @classmethod
-    def get_user_friendly_name(cls, python_variable_name):
-        temp_data = re.sub(r'[_]', repl=' ', string=python_variable_name)
-        return temp_data.title()
+    def get_user_friendly_name(cls, *args, **kwargs):
+        """
+
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        return _PhCommon.get_user_friendly_name(*args, **kwargs)
+
+    get_user_friendly_name.__signature__ = inspect.signature(_PhCommon.get_user_friendly_name)
 
     @classmethod
     def get_python_friendly_name(cls, user_variable_name, all_lower=True, case_sensitive=True):
@@ -1546,6 +1623,8 @@ class PhUtil:
 
     @classmethod
     def normalise_list(cls, user_list):
+        if not isinstance(user_list, list):
+            return user_list
         new_list = copy.copy(PhConstants.LIST_EMPTY)
         for item in user_list:
             if cls.is_none(item):
@@ -2158,29 +2237,23 @@ class PhUtil:
             print(f'cpu_freq is {res}')
 
             res = [x / psutil.cpu_count() * 100 for x in psutil.getloadavg()]
-            print(f'getloadavg is {res}')
+            print(f'load_avg is {res}')
 
     @classmethod
-    def get_module_version(cls, module_name=PhModules.PYCRATE, minimum_version_required=None):
+    def get_module_version(cls, module_name=PhModules.PLAY_HELPERS, minimum_version_required=None):
         """
 
         :param module_name:
         :param minimum_version_required:
         :return:
         """
-        # try:
-        #     module_obj = pkg_resources.get_distribution(module_name)
-        # except pkg_resources.DistributionNotFound as e:
-        #     print(f"An exception occurred: {e}")
-        #     return 'None'
-        # module_version = module_obj.version
-        # module_version = version.parse(module_version)
-
         try:
             module_obj = distribution(module_name)
         except PackageNotFoundError as e:
-            print(f"An exception occurred: {e}")
-            return 'None'
+            exception_object = PhExceptionHelper(exception=e, summary_msg=PhConstants.PACKAGE_NOT_FOUND_ERROR,
+                                                 known=True)
+            print(f'{exception_object.get_details()}')
+            return None
         module_version = module_obj.version
         module_version = version.parse(module_version)
         if minimum_version_required:
@@ -2189,6 +2262,23 @@ class PhUtil:
             return module_version, version_available
         else:
             return module_version
+
+    @classmethod
+    def get_all_installed_distributions(cls, dic_format=False):
+        """
+        Retrieves the names and versions of all installed distributions.
+
+        :param dic_format:
+        :return:
+        """
+        all_dists = distributions()
+        dists_list = []
+        for dist in all_dists:
+            # Access the metadata to get the distribution name and version
+            dists_list.append(cls.format_tool_name_w_version(tool_name=dist.metadata['Name'],
+                                                             tool_version=dist.metadata['Version'],
+                                                             dic_format=dic_format))
+        return dists_list
 
     @classmethod
     def get_user_details_display_name(cls):
@@ -2258,6 +2348,17 @@ class PhUtil:
         return user_remarks
 
     @classmethod
+    def to_list_lite(cls, obj):
+        """
+
+        :param obj:
+        :param all_str:
+        :param trim_data:
+        :return:
+        """
+        return cls.to_list(obj=obj, all_str=False, trim_data=False)
+
+    @classmethod
     def to_list(cls, obj, all_str=False, trim_data=True):
         data_list = [] if obj is None else (obj if isinstance(obj, list) else [obj])
         if all_str:
@@ -2282,12 +2383,43 @@ class PhUtil:
         return obj + extended_list
 
     @classmethod
-    def combine_list_items(cls, list_data, trim_data=True, clean_data=True):
+    def combine_list_items_lite(cls, list_data, sep_data=PhConstants.SEPERATOR_TWO_LINES,
+                                sep_data_set=PhConstants.SEPERATOR_TWO_DATA_SET):
+        """
+
+        :param sep_data:
+        :param sep_data_set:
+        :param list_data:
+        :param sep:
+        :return:
+        """
+        return cls.combine_list_items(list_data=list_data, trim_data=False, clean_data=False, sep=sep_data,
+                                      sep_data_set=sep_data_set, filter_none=True)
+
+    @classmethod
+    def combine_list_items(cls, list_data, trim_data=True, clean_data=True, sep=PhConstants.SEPERATOR_MULTI_OBJ,
+                           filter_none=True,
+                           sep_data_set=None,
+                           # sep_data_set=PhConstants.SEPERATOR_TWO_LINES,
+                           ):
+        """
+
+        :param sep_data_set:
+        :param list_data:
+        :param trim_data:
+        :param clean_data:
+        :param sep:
+        :param filter_none:
+        :return:
+        """
         if not isinstance(list_data, list):
             temp = list_data
             list_data = list()
             list_data.append(temp)
-        list_data = list(filter(None, list_data))
+        # Handle lists of list
+        list_data = cls.normalise_list(list_data)
+        if filter_none:
+            list_data = list(filter(None, list_data))
         if trim_data:
             list_data = [x.strip() if x is not None and isinstance(x, str) else x for x in list_data]
         if clean_data:
@@ -2296,7 +2428,9 @@ class PhUtil:
         if 0 < len(list_data) < 2:
             return list_data[0]
         list_data = [str(x) for x in list_data]
-        res = PhConstants.SEPERATOR_MULTI_OBJ.join(list_data)
+        if sep_data_set:
+            list_data.append(sep_data_set)
+        res = sep.join(list_data)
         return res
 
     @classmethod
