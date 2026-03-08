@@ -1,0 +1,37 @@
+}--------------------------------------------------------------------------------{ 
+}--------------------------------------------------------------------------------{ Filters for BC & NPP
+}--------------------------------------------------------------------------------{ 
+D:\Other\Github_Personal\AmenityPjRaw\Beyond Compare.txt
+D:\Other\Github_Personal\AmenityPjRaw\Notepad++ Settings\NPP Tips.txt
+}************************************************************{ 
+notepad++
+ !+\data;!+\log*;!+\venv*;!+\.venv*;!+\build*;!+\.idea;!+\.git;!+\.vscode;!+\.eggs;!+\*.egginfo;!+\__pycache__;!+\.eggs;!+\bin;!+\classes;!+\javadoc;!*.log*;!*.gitignore;!*.7z;!*.rar;!*.zip;!*.tar;!*.gz;!*.class;!*.pyc;!*.obj;!*.jar;!*.lnk;!*.dll;!*.exe;!*.bin;!*.rpm;!*.doc;!*.docx;!*.pdf;!*.vsd;!*.html;!*.js;!*.ini;!*.asc;!*.bson;!*.idx;!*.ttf
+beyond compare
+-data\ -log*\ -venv*\ -.venv*\ -build*\ -.idea\ -.git\ -.vscode\ -.eggs\ -*.egginfo\ -__pycache__\ -.eggs\ -bin\ -classes\ -javadoc\ -*.log* -*.gitignore -*.7z -*.rar -*.zip -*.tar -*.gz -*.class -*.pyc -*.obj -*.jar -*.lnk -*.dll -*.exe -*.bin -*.rpm -*.doc -*.docx -*.pdf -*.vsd -*.html -*.js -*.ini -*.asc -*.bson -*.idx -*.ttf
+----------
+-*.ini;-venv\;-.venv\;-.git\;-.idea\;-.vscode\;-bin\;-classes\;-javadoc\;-__pycache__\;-build\;-*.egg-info\;-.eggs\;-python_helpers\
+-*.egg-info\ ;-.eggs\;-python_helpers\
+
+
+-build\;
+-*.ini;
+}************************************************************{ 
+-.git\;-.idea\;-.vscode\;-bin\;-classes\;-javadoc\;-__pycache__\
+-.git\;-.idea\;-.vscode\;-bin\;-classes\;-javadoc\;-__pycache__\
+}************************************************************{ 
+}--------------------------------------------------------------------------------{ 
+}--------------------------------------------------------------------------------{ Badges
+}--------------------------------------------------------------------------------{ 
+[![image](https://img.shields.io/pypi/v/pipenv.svg)](https://python.org/pypi/pipenv)
+[![image](https://img.shields.io/pypi/l/pipenv.svg)](https://python.org/pypi/pipenv)
+[![CI](https://github.com/pypa/pipenv/actions/workflows/ci.yaml/badge.svg)](https://github.com/pypa/pipenv/actions/workflows/ci.yaml)
+[![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://python.org/pypi/pipenv)
+![PyPI - Version](https://img.shields.io/pypi/v/playhelpers)
+|kit| image:: https://img.shields.io/pypi/v/coverage
+|versions| image:: https://img.shields.io/pypi/pyversions/coverage.svg?logo=python&logoColor=FBE072
+[![Read the Docs](https://img.shields.io/readthedocs/playhelpers)]()
+[![Read the Docs (version)](https://img.shields.io/readthedocs/playhelpers/v1.0.0)]()
+[![Docs](https://readthedocs.org/projects/playhelpers/badge/?version=latest&style=flat)]()
+}--------------------------------------------------------------------------------{ 
+}--------------------------------------------------------------------------------{ 
+}--------------------------------------------------------------------------------{ 
