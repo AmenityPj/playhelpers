@@ -44,29 +44,21 @@ Manual installation using pip commands
 The usual pip command(s) can be used for manual installation.
 
 ```
-Sample Command(s):
+Sample Command(s) (Recommended):
 
 pip install playhelpers
-pip install git+https://github.com/AmenityPj/playhelpers@v6.0.0.git
 pip install -r requirements.txt
 pip install -r requirements_internal_lib.txt
 ```
 
-Manual upgrade using pip commands
-----------------------
-
-The usual pip command(s) can be used for manual upgrade.
-
 ```
-Sample Command(s):
+Sample Command(s) (Other):
 
-pip install --upgrade playhelpers
-pip install -r requirements.txt --upgrade
+# Directly from Git using Specific Tag (Remove @ String for Main Branch)
+pip install git+https://github.com/AmenityPj/playhelpers@v7.0.0
+# Directly from Local Cloned Copy
+pip install D:\Other\Github_Self\playhelpers
 ```
-
-An installation script is (install_requirements.bat / install_requirements.sh) available.
-As soon as you have cloned or downloaded the repository, you can use it to install
-the tool/library within your Python package directory.
 
 Manual installation using setup.py
 ----------------------
@@ -77,6 +69,19 @@ Setup File can also be executed manually.
 Sample Command(s): 
 
 python setup.py install
+```
+
+Manual upgrade using pip commands
+----------------------
+
+The usual pip command(s) can be used for manual upgrade.
+
+```
+Sample Command(s) (Recommended):
+
+pip install --upgrade playhelpers
+pip install -r requirements.txt --upgrade
+pip install -r requirements_internal_lib.txt --upgrade
 ```
 
 Installation Troubleshoot
