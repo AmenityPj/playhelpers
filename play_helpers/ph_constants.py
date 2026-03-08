@@ -194,6 +194,7 @@ class PhConstants:
 
     SEPERATOR_TWO_WORDS = ' '
     SEPERATOR_TWO_LINES = '\n'
+    SEPERATOR_TWO_DATA_SET = '     -----     '
     SEPERATOR_TWO_LINES_MULTI = '\n\n'
     SEPERATOR_FILE_NAME = '_'
     SEPERATOR_ONE_LINE = ': '
@@ -237,6 +238,7 @@ class PhConstants:
     READ_WRITE_ERROR = 'input/output path reading/writing error'
     WRITE_PATH_ERROR = 'output path writing error'
     TIME_OUT_ERROR = 'time out error'
+    PACKAGE_NOT_FOUND_ERROR = 'package not found error'
     NON_ZERO_EXIT_STATUS_ERROR = 'non-zero exit status error'
     INPUTS_ERROR = 'Check all your Inputs'
     INVALID_RAW_DATA = 'Check your Raw Data'

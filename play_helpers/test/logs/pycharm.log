@@ -1,4 +1,21 @@
 ------------------------------------------------------- test_temp ------------------------------------------------------
+---------------------------------------------------- test_open_bugs ----------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, Mar 08 2026, 12:11:17:999743, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
+--------------------------------------------------------------------------------
+playhelpers version is v7.0.2
+--------------------------------------------------------------------------------
+Known Exception Occurred; Summary: package not found error; Details: ruamel.yaml
+ruamel.yaml version is -1.-1.-1
+--------------------------------------------------------------------------------
 ----------------------------------------------------- test_version -----------------------------------------------------
 -------------------------------------------------- tool_version=1.0.1 --------------------------------------------------
 --------------------------------------------------------------------------------
@@ -8,11 +25,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:093410, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:004742, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -23,11 +40,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:094406, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:004742, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------- tool_version=None --------------------------------------------------
@@ -38,13 +55,13 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:095406, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:004742, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
-Test Tool version is 
+Test Tool version is -1.-1.-1
 --------------------------------------------------------------------------------
 ------------------------------------------------ fetch_tool_version=True -----------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
@@ -53,11 +70,12 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:095406, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:005744, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v5.3.1.dev0
+Known Exception Occurred; Summary: package not found error; Details: playhelpers
+playhelpers version is -1.-1.-1
 ----------------------------------------------- fetch_tool_version=False -----------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
@@ -65,9 +83,9 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:098405, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:009743, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
 playhelpers version is v1.0.1
 ------------------------------------------------ no_additional_info=True -----------------------------------------------
@@ -82,11 +100,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:098405, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:010744, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -98,14 +116,14 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:34:099409, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:18:010744, IST (GMT+0530)
 --------------------------------------------------------------------------------
 IPV4 is 49.207.151.91
 IPV6 is 49.207.151.91
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -117,11 +135,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:35:078851, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:19:242757, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -133,11 +151,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:35:078851, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:19:243757, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -149,9 +167,9 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:35:079847, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:19:243757, IST (GMT+0530)
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -163,38 +181,38 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:35:080850, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:19:245757, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
 cat: '..\.git\HEAD': No such file or directory
 Git Details are:
-git_rev_parse_hash: d26e1cdce26bf843efa9b97ff007bcd0cb4ec181
-git_rev_parse_short_hash: d26e1cd
+git_rev_parse_hash: 71e90e98a164f26b7aa4f6458c15ee033d14e124
+git_rev_parse_short_hash: 71e90e9
 git_rev_parse_branch: main
-git_describe: v6.0.3.dev1-3-gd26e1cd
-git_describe_always: v6.0.3.dev1-3-gd26e1cd
-git_summary: d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
-git_log_commit_hash: d26e1cdce26bf843efa9b97ff007bcd0cb4ec181
-git_log_commit_short_hash: d26e1cd
-git_log_tree_hash: 1aaf49797a98b3bda9b277fb2556ab79a2e07d41
-git_log_tree_short_hash: 1aaf497
-git_log_parent_hash: db047b8d4724905db38bfa467c137bec70a8dd93
-git_log_parent_short_hash: db047b8
-git_log_head: (HEAD -> main)
-git_log_time: 2026-02-27 10:23:59 +0530
+git_describe: v7.0.1-2-g71e90e9
+git_describe_always: v7.0.1-2-g71e90e9
+git_summary: 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
+git_log_commit_hash: 71e90e98a164f26b7aa4f6458c15ee033d14e124
+git_log_commit_short_hash: 71e90e9
+git_log_tree_hash: 032ad70c52632175774c48d4ee17d84eca087e08
+git_log_tree_short_hash: 032ad70
+git_log_parent_hash: 08539720bda2fa4616fea3772403d66e2b98ee90
+git_log_parent_short_hash: 0853972
+git_log_head: (HEAD -> main, origin/main, origin/HEAD)
+git_log_time: 2026-03-04 08:55:42 +0530
 git_log_commiter_name: imPratik
 git_log_commiter_email: impratikjaiswal@gmail.com
-git_log_message: scripts organised
+git_log_message: updated
 git_symbolic-ref_head: refs/heads/main
 git_local_file_head: None
-git_describe_always_path: v6.0.3.dev1-3-gd26e1cd
-git_describe_always_pathlib: v6.0.3.dev1-3-gd26e1cd
+git_describe_always_path: v7.0.1-2-g71e90e9
+git_describe_always_pathlib: v7.0.1-2-g71e90e9
 git_local_file_head_path: ref: refs/heads/main
 git_local_file_head_pathlib: ref: refs/heads/main
 
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -206,11 +224,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:37:397655, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:20:727257, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 Test Tool version is v1.0.1
 --------------------------------------------------------------------------------
@@ -221,11 +239,11 @@ Python executable Path is D:\Other\Github_Self\playhelpers\venv_39\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Feb 27 2026, 10:44:37:398655, IST (GMT+0530)
+Time Stamp is Sunday, Mar 08 2026, 12:11:20:727257, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+Git Summary is 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 --------------------------------------------------------------------------------
-playhelpers version is v6.0.3.dev3
+playhelpers version is v7.0.2
 --------------------------------------------------------------------------------
 packaging version is v26.0
 --------------------------------------------------------------------------------
@@ -245,18 +263,20 @@ requests version is v2.32.5
 pycryptodome version is v3.23.0
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-ruamel.yaml version is v0.18.6
+Known Exception Occurred; Summary: package not found error; Details: ruamel.yaml
+ruamel.yaml version is -1.-1.-1
 --------------------------------------------------------------------------------
 ------------------------ parameters_pool=version_parameters_pool, get_only=True, dic_format=True -----------------------
+Known Exception Occurred; Summary: package not found error; Details: ruamel.yaml
 Pool:
-playhelpers: v6.0.3.dev3
+playhelpers: v7.0.2
 packaging: v26.0
 pandas: v2.3.3
 psutil: v7.2.2
 tzlocal: v5.3.1
 requests: v2.32.5
 pycryptodome: v3.23.0
-ruamel.yaml: v0.18.6
+ruamel.yaml: -1.-1.-1
 --------------------------------------------------- test_parse_config --------------------------------------------------
 --------------------------------------------------- Simple Data Types --------------------------------------------------
 Before:
@@ -552,52 +572,52 @@ input_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag â€˜BF31â€™
 	output_data: DisableProfileRequest ::= [49] SEQUENCE { -- Tag 'BF31' 
 --------------------------------------------------- test_get_git_info --------------------------------------------------
 ------------------------------------------ get_git_info_detailed; GIT_SUMMARY ------------------------------------------
-GIT_SUMMARY: d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
+GIT_SUMMARY: 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
 ------------------------------------------------- get_git_info_detailed ------------------------------------------------
 cat: '..\.git\HEAD': No such file or directory
-{'git_rev_parse_hash': 'd26e1cdce26bf843efa9b97ff007bcd0cb4ec181', 'git_rev_parse_short_hash': 'd26e1cd', 'git_rev_parse_branch': 'main', 'git_describe': 'v6.0.3.dev1-3-gd26e1cd', 'git_describe_always': 'v6.0.3.dev1-3-gd26e1cd', 'git_summary': 'd26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised', 'git_log_commit_hash': 'd26e1cdce26bf843efa9b97ff007bcd0cb4ec181', 'git_log_commit_short_hash': 'd26e1cd', 'git_log_tree_hash': '1aaf49797a98b3bda9b277fb2556ab79a2e07d41', 'git_log_tree_short_hash': '1aaf497', 'git_log_parent_hash': 'db047b8d4724905db38bfa467c137bec70a8dd93', 'git_log_parent_short_hash': 'db047b8', 'git_log_head': '(HEAD -> main)', 'git_log_time': '2026-02-27 10:23:59 +0530', 'git_log_commiter_name': 'imPratik', 'git_log_commiter_email': 'impratikjaiswal@gmail.com', 'git_log_message': 'scripts organised', 'git_symbolic-ref_head': 'refs/heads/main', 'git_local_file_head': None, 'git_describe_always_path': 'v6.0.3.dev1-3-gd26e1cd', 'git_describe_always_pathlib': 'v6.0.3.dev1-3-gd26e1cd', 'git_local_file_head_path': 'ref: refs/heads/main', 'git_local_file_head_pathlib': 'ref: refs/heads/main'}
+{'git_rev_parse_hash': '71e90e98a164f26b7aa4f6458c15ee033d14e124', 'git_rev_parse_short_hash': '71e90e9', 'git_rev_parse_branch': 'main', 'git_describe': 'v7.0.1-2-g71e90e9', 'git_describe_always': 'v7.0.1-2-g71e90e9', 'git_summary': '71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated', 'git_log_commit_hash': '71e90e98a164f26b7aa4f6458c15ee033d14e124', 'git_log_commit_short_hash': '71e90e9', 'git_log_tree_hash': '032ad70c52632175774c48d4ee17d84eca087e08', 'git_log_tree_short_hash': '032ad70', 'git_log_parent_hash': '08539720bda2fa4616fea3772403d66e2b98ee90', 'git_log_parent_short_hash': '0853972', 'git_log_head': '(HEAD -> main, origin/main, origin/HEAD)', 'git_log_time': '2026-03-04 08:55:42 +0530', 'git_log_commiter_name': 'imPratik', 'git_log_commiter_email': 'impratikjaiswal@gmail.com', 'git_log_message': 'updated', 'git_symbolic-ref_head': 'refs/heads/main', 'git_local_file_head': None, 'git_describe_always_path': 'v7.0.1-2-g71e90e9', 'git_describe_always_pathlib': 'v7.0.1-2-g71e90e9', 'git_local_file_head_path': 'ref: refs/heads/main', 'git_local_file_head_pathlib': 'ref: refs/heads/main'}
 ---------------------------------------------- get_git_info_detailed iter ----------------------------------------------
 cat: '..\.git\HEAD': No such file or directory
-git_rev_parse_hash: d26e1cdce26bf843efa9b97ff007bcd0cb4ec181
-git_rev_parse_short_hash: d26e1cd
+git_rev_parse_hash: 71e90e98a164f26b7aa4f6458c15ee033d14e124
+git_rev_parse_short_hash: 71e90e9
 git_rev_parse_branch: main
-git_describe: v6.0.3.dev1-3-gd26e1cd
-git_describe_always: v6.0.3.dev1-3-gd26e1cd
-git_summary: d26e1cd;  (HEAD -> main); 2026-02-27 10:23:59 +0530; imPratik <impratikjaiswal@gmail.com>; scripts organised
-git_log_commit_hash: d26e1cdce26bf843efa9b97ff007bcd0cb4ec181
-git_log_commit_short_hash: d26e1cd
-git_log_tree_hash: 1aaf49797a98b3bda9b277fb2556ab79a2e07d41
-git_log_tree_short_hash: 1aaf497
-git_log_parent_hash: db047b8d4724905db38bfa467c137bec70a8dd93
-git_log_parent_short_hash: db047b8
-git_log_head: (HEAD -> main)
-git_log_time: 2026-02-27 10:23:59 +0530
+git_describe: v7.0.1-2-g71e90e9
+git_describe_always: v7.0.1-2-g71e90e9
+git_summary: 71e90e9;  (HEAD -> main, origin/main, origin/HEAD); 2026-03-04 08:55:42 +0530; imPratik <impratikjaiswal@gmail.com>; updated
+git_log_commit_hash: 71e90e98a164f26b7aa4f6458c15ee033d14e124
+git_log_commit_short_hash: 71e90e9
+git_log_tree_hash: 032ad70c52632175774c48d4ee17d84eca087e08
+git_log_tree_short_hash: 032ad70
+git_log_parent_hash: 08539720bda2fa4616fea3772403d66e2b98ee90
+git_log_parent_short_hash: 0853972
+git_log_head: (HEAD -> main, origin/main, origin/HEAD)
+git_log_time: 2026-03-04 08:55:42 +0530
 git_log_commiter_name: imPratik
 git_log_commiter_email: impratikjaiswal@gmail.com
-git_log_message: scripts organised
+git_log_message: updated
 git_symbolic-ref_head: refs/heads/main
 git_local_file_head: None
-git_describe_always_path: v6.0.3.dev1-3-gd26e1cd
-git_describe_always_pathlib: v6.0.3.dev1-3-gd26e1cd
+git_describe_always_path: v7.0.1-2-g71e90e9
+git_describe_always_pathlib: v7.0.1-2-g71e90e9
 git_local_file_head_path: ref: refs/heads/main
 git_local_file_head_pathlib: ref: refs/heads/main
 
 --------------------------------------------- test_get_time_stamp_file_name --------------------------------------------
-20260227_1044 40 919928
-20260227_1044 40 935494
-20260227_1044 40 950753
-20260227_1044 40 966242
-20260227_1044 40 981522
-20260227_1044 40 997212
-20260227_1044 41 012644
-20260227_1044 41 027954
-20260227_1044 41 044391
-20260227_1044 41 059807
-20260227_1044 41 075873
-20260227_1044 41 092360
-20260227_1044 41 107855
-20260227_1044 41 123719
-20260227_1044 41 139820
+20260308_1211 39 250618
+20260308_1211 39 265617
+20260308_1211 39 282617
+20260308_1211 39 297618
+20260308_1211 39 313621
+20260308_1211 39 329620
+20260308_1211 39 345618
+20260308_1211 39 360616
+20260308_1211 39 376616
+20260308_1211 39 392621
+20260308_1211 39 408623
+20260308_1211 39 424617
+20260308_1211 39 440617
+20260308_1211 39 457618
+20260308_1211 39 471617
 Duplicate Items:
 
 ----------------------------------------------------- test_to_file -----------------------------------------------------
@@ -1051,9 +1071,115 @@ item 100000000000000000000000000000000000000000000000000000000000000000000000000
 item 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000...
 item 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000...
 item 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000...
+---------------------------------------- test_print_all_installed_distributions ----------------------------------------
+---------------------------------------------------- dic_format=True ---------------------------------------------------
+Total Installed Distributions Count: 50
+alabaster: v0.7.16
+attrs: v25.4.0
+Automat: v25.4.16
+babel: v2.18.0
+certifi: v2026.2.25
+charset-normalizer: v3.4.4
+click: v8.1.8
+cmake: v4.2.1
+colorama: v0.4.6
+constantly: v23.10.4
+docutils: v0.21.2
+hyperlink: v21.0.0
+idna: v3.11
+imagesize: v1.4.1
+importlib_metadata: v8.7.1
+Incremental: v24.11.0
+Jinja2: v3.1.6
+MarkupSafe: v3.0.3
+numpy: v2.0.2
+packaging: v26.0
+pandas: v2.3.3
+pip: v26.0.1
+psutil: v7.2.2
+pycryptodome: v3.23.0
+Pygments: v2.19.2
+python-dateutil: v2.9.0.post0
+pytz: v2025.2
+requests: v2.32.5
+ruamel.yaml: v0.19.1
+setuptools: v58.1.0
+six: v1.17.0
+snowballstemmer: v3.0.1
+Sphinx: v7.4.7
+sphinxcontrib-applehelp: v2.0.0
+sphinxcontrib-devhelp: v2.0.0
+sphinxcontrib-htmlhelp: v2.1.0
+sphinxcontrib-jquery: v4.1
+sphinxcontrib-jsmath: v1.0.1
+sphinxcontrib-qthelp: v2.0.0
+sphinxcontrib-serializinghtml: v2.0.0
+sphinx_rtd_theme: v3.1.0
+tomli: v2.4.0
+Twisted: v25.5.0
+typing_extensions: v4.15.0
+tzdata: v2025.3
+tzlocal: v5.3.1
+urllib3: v2.6.3
+wheel: v0.46.3
+zipp: v3.23.0
+zope.interface: v8.0.1
+--------------------------------------------------- dic_format=False ---------------------------------------------------
+Total Installed Distributions Count: 50
+alabaster version is v0.7.16
+attrs version is v25.4.0
+Automat version is v25.4.16
+babel version is v2.18.0
+certifi version is v2026.2.25
+charset-normalizer version is v3.4.4
+click version is v8.1.8
+cmake version is v4.2.1
+colorama version is v0.4.6
+constantly version is v23.10.4
+docutils version is v0.21.2
+hyperlink version is v21.0.0
+idna version is v3.11
+imagesize version is v1.4.1
+importlib_metadata version is v8.7.1
+Incremental version is v24.11.0
+Jinja2 version is v3.1.6
+MarkupSafe version is v3.0.3
+numpy version is v2.0.2
+packaging version is v26.0
+pandas version is v2.3.3
+pip version is v26.0.1
+psutil version is v7.2.2
+pycryptodome version is v3.23.0
+Pygments version is v2.19.2
+python-dateutil version is v2.9.0.post0
+pytz version is v2025.2
+requests version is v2.32.5
+ruamel.yaml version is v0.19.1
+setuptools version is v58.1.0
+six version is v1.17.0
+snowballstemmer version is v3.0.1
+Sphinx version is v7.4.7
+sphinxcontrib-applehelp version is v2.0.0
+sphinxcontrib-devhelp version is v2.0.0
+sphinxcontrib-htmlhelp version is v2.1.0
+sphinxcontrib-jquery version is v4.1
+sphinxcontrib-jsmath version is v1.0.1
+sphinxcontrib-qthelp version is v2.0.0
+sphinxcontrib-serializinghtml version is v2.0.0
+sphinx_rtd_theme version is v3.1.0
+tomli version is v2.4.0
+Twisted version is v25.5.0
+typing_extensions version is v4.15.0
+tzdata version is v2025.3
+tzlocal version is v5.3.1
+urllib3 version is v2.6.3
+wheel version is v0.46.3
+zipp version is v3.23.0
+zope.interface version is v8.0.1
+
 -------------------------------------------------- test_print_modules --------------------------------------------------
 --------------------------------------------------- No filter String ---------------------------------------------------
-Total Modules Count: 861
+Total Modules Count: 864
 sys: <module 'sys' (built-in)>
 builtins: <module 'builtins' (built-in)>
 _frozen_importlib: <module 'importlib._bootstrap' (frozen)>
@@ -1221,6 +1347,11 @@ string: <module 'string' from 'D:\\ProgramFiles\\Python39\\lib\\string.py'>
 zipfile: <module 'zipfile' from 'D:\\ProgramFiles\\Python39\\lib\\zipfile.py'>
 _datetime: <module '_datetime' (built-in)>
 datetime: <module 'datetime' from 'D:\\ProgramFiles\\Python39\\lib\\datetime.py'>
+_csv: <module '_csv' (built-in)>
+csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
+email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
+configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
+importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 __future__: <module '__future__' from 'D:\\ProgramFiles\\Python39\\lib\\__future__.py'>
 numpy._utils._convertions: <module 'numpy._utils._convertions' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\_convertions.py'>
 numpy._utils: <module 'numpy._utils' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\__init__.py'>
@@ -1363,7 +1494,7 @@ zoneinfo._common: <module 'zoneinfo._common' from 'D:\\ProgramFiles\\Python39\\l
 _zoneinfo: <module '_zoneinfo' from 'D:\\ProgramFiles\\Python39\\DLLs\\_zoneinfo.pyd'>
 zoneinfo: <module 'zoneinfo' from 'D:\\ProgramFiles\\Python39\\lib\\zoneinfo\\__init__.py'>
 six: <module 'six' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\six.py'>
-six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x000001A2287CDF70>)>
+six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x00000222F461D7F0>)>
 dateutil.tz._common: <module 'dateutil.tz._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_common.py'>
 dateutil.tz._factories: <module 'dateutil.tz._factories' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_factories.py'>
 ctypes.wintypes: <module 'ctypes.wintypes' from 'D:\\ProgramFiles\\Python39\\lib\\ctypes\\wintypes.py'>
@@ -1474,8 +1605,6 @@ pandas.tseries.frequencies: <module 'pandas.tseries.frequencies' from 'D:\\Other
 pandas.core.arrays.arrow.array: <module 'pandas.core.arrays.arrow.array' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py'>
 pandas.core.arrays.arrow: <module 'pandas.core.arrays.arrow' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py'>
 pandas.core.arrays.boolean: <module 'pandas.core.arrays.boolean' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py'>
-_csv: <module '_csv' (built-in)>
-csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
 pandas.core.accessor: <module 'pandas.core.accessor' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\accessor.py'>
 pandas.core.base: <module 'pandas.core.base' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\base.py'>
 pandas.core.arrays.categorical: <module 'pandas.core.arrays.categorical' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py'>
@@ -1664,9 +1793,6 @@ pandas.io.api: <module 'pandas.io.api' from 'D:\\Other\\Github_Self\\playhelpers
 pandas.util._tester: <module 'pandas.util._tester' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\util\\_tester.py'>
 pandas._version_meson: <module 'pandas._version_meson' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\_version_meson.py'>
 pandas: <module 'pandas' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\__init__.py'>
-email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
-configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
-importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 atexit: <module 'atexit' (built-in)>
 logging: <module 'logging' from 'D:\\ProgramFiles\\Python39\\lib\\logging\\__init__.py'>
 _socket: <module '_socket' from 'D:\\ProgramFiles\\Python39\\DLLs\\_socket.pyd'>
@@ -1860,8 +1986,10 @@ ruamel.yaml.dumper: <module 'ruamel.yaml.dumper' from 'D:\\Other\\Github_Self\\p
 ruamel.yaml.main: <module 'ruamel.yaml.main' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\main.py'>
 ruamel.yaml: <module 'ruamel.yaml' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\__init__.py'>
 play_helpers.ph_keys: <module 'play_helpers.ph_keys' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_keys.py'>
-play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
+play_helpers._common: <module 'play_helpers._common' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_common.py'>
+play_helpers.ph_exception_helper: <module 'play_helpers.ph_exception_helper' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_exception_helper.py'>
 play_helpers.ph_modules: <module 'play_helpers.ph_modules' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_modules.py'>
+play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
 psutil._common: <module 'psutil._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_common.py'>
 psutil._ntuples: <module 'psutil._ntuples' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_ntuples.py'>
 psutil._psutil_windows: <module 'psutil._psutil_windows' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_psutil_windows.pyd'>
@@ -1869,6 +1997,7 @@ psutil._pswindows: <module 'psutil._pswindows' from 'D:\\Other\\Github_Self\\pla
 psutil: <module 'psutil' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\__init__.py'>
 play_helpers.ph_util: <module 'play_helpers.ph_util' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_util.py'>
 play_helpers.ph_crypto: <module 'play_helpers.ph_crypto' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_crypto.py'>
+play_helpers.ph_misc: <module 'play_helpers.ph_misc' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_misc.py'>
 play_helpers.ph_time: <module 'play_helpers.ph_time' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_time.py'>
 play_helpers.test: <module 'play_helpers.test' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test\\__init__.py'>
 concurrent: <module 'concurrent' from 'D:\\ProgramFiles\\Python39\\lib\\concurrent\\__init__.py'>
@@ -1917,8 +2046,8 @@ pydoc: <module 'pydoc' from 'D:\\ProgramFiles\\Python39\\lib\\pydoc.py'>
 encodings.ascii: <module 'encodings.ascii' from 'D:\\ProgramFiles\\Python39\\lib\\encodings\\ascii.py'>
 
 --------------------------------------------- filter_string='play_helpers' ---------------------------------------------
-Total Modules Count: 887
-Filtered Modules Count: 21
+Total Modules Count: 864
+Filtered Modules Count: 24
 play_helpers: <module 'play_helpers' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\__init__.py'>
 play_helpers.ph_constants: <module 'play_helpers.ph_constants' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_constants.py'>
 play_helpers.ph_file_extensions: <module 'play_helpers.ph_file_extensions' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_file_extensions.py'>
@@ -1932,10 +2061,13 @@ play_helpers._tool_name: <module 'play_helpers._tool_name' from 'D:\\Other\\Gith
 play_helpers._version: <module 'play_helpers._version' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_version.py'>
 play_helpers.ph_constants_config: <module 'play_helpers.ph_constants_config' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_constants_config.py'>
 play_helpers.ph_keys: <module 'play_helpers.ph_keys' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_keys.py'>
-play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
+play_helpers._common: <module 'play_helpers._common' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_common.py'>
+play_helpers.ph_exception_helper: <module 'play_helpers.ph_exception_helper' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_exception_helper.py'>
 play_helpers.ph_modules: <module 'play_helpers.ph_modules' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_modules.py'>
+play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
 play_helpers.ph_util: <module 'play_helpers.ph_util' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_util.py'>
 play_helpers.ph_crypto: <module 'play_helpers.ph_crypto' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_crypto.py'>
+play_helpers.ph_misc: <module 'play_helpers.ph_misc' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_misc.py'>
 play_helpers.ph_time: <module 'play_helpers.ph_time' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_time.py'>
 play_helpers.test: <module 'play_helpers.test' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test\\__init__.py'>
 play_helpers.test.test_util: <module 'play_helpers.test.test_util' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test\\test_util.py'>
@@ -2358,6 +2490,11 @@ string: <module 'string' from 'D:\\ProgramFiles\\Python39\\lib\\string.py'>
 zipfile: <module 'zipfile' from 'D:\\ProgramFiles\\Python39\\lib\\zipfile.py'>
 _datetime: <module '_datetime' (built-in)>
 datetime: <module 'datetime' from 'D:\\ProgramFiles\\Python39\\lib\\datetime.py'>
+_csv: <module '_csv' (built-in)>
+csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
+email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
+configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
+importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 __future__: <module '__future__' from 'D:\\ProgramFiles\\Python39\\lib\\__future__.py'>
 numpy._utils._convertions: <module 'numpy._utils._convertions' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\_convertions.py'>
 numpy._utils: <module 'numpy._utils' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\__init__.py'>
@@ -2500,7 +2637,7 @@ zoneinfo._common: <module 'zoneinfo._common' from 'D:\\ProgramFiles\\Python39\\l
 _zoneinfo: <module '_zoneinfo' from 'D:\\ProgramFiles\\Python39\\DLLs\\_zoneinfo.pyd'>
 zoneinfo: <module 'zoneinfo' from 'D:\\ProgramFiles\\Python39\\lib\\zoneinfo\\__init__.py'>
 six: <module 'six' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\six.py'>
-six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x000001A2287CDF70>)>
+six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x00000222F461D7F0>)>
 dateutil.tz._common: <module 'dateutil.tz._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_common.py'>
 dateutil.tz._factories: <module 'dateutil.tz._factories' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_factories.py'>
 ctypes.wintypes: <module 'ctypes.wintypes' from 'D:\\ProgramFiles\\Python39\\lib\\ctypes\\wintypes.py'>
@@ -2611,8 +2748,6 @@ pandas.tseries.frequencies: <module 'pandas.tseries.frequencies' from 'D:\\Other
 pandas.core.arrays.arrow.array: <module 'pandas.core.arrays.arrow.array' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py'>
 pandas.core.arrays.arrow: <module 'pandas.core.arrays.arrow' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py'>
 pandas.core.arrays.boolean: <module 'pandas.core.arrays.boolean' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py'>
-_csv: <module '_csv' (built-in)>
-csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
 pandas.core.accessor: <module 'pandas.core.accessor' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\accessor.py'>
 pandas.core.base: <module 'pandas.core.base' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\base.py'>
 pandas.core.arrays.categorical: <module 'pandas.core.arrays.categorical' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py'>
@@ -2801,9 +2936,6 @@ pandas.io.api: <module 'pandas.io.api' from 'D:\\Other\\Github_Self\\playhelpers
 pandas.util._tester: <module 'pandas.util._tester' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\util\\_tester.py'>
 pandas._version_meson: <module 'pandas._version_meson' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\_version_meson.py'>
 pandas: <module 'pandas' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\__init__.py'>
-email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
-configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
-importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 atexit: <module 'atexit' (built-in)>
 logging: <module 'logging' from 'D:\\ProgramFiles\\Python39\\lib\\logging\\__init__.py'>
 _socket: <module '_socket' from 'D:\\ProgramFiles\\Python39\\DLLs\\_socket.pyd'>
@@ -2997,8 +3129,10 @@ ruamel.yaml.dumper: <module 'ruamel.yaml.dumper' from 'D:\\Other\\Github_Self\\p
 ruamel.yaml.main: <module 'ruamel.yaml.main' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\main.py'>
 ruamel.yaml: <module 'ruamel.yaml' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\__init__.py'>
 play_helpers.ph_keys: <module 'play_helpers.ph_keys' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_keys.py'>
-play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
+play_helpers._common: <module 'play_helpers._common' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_common.py'>
+play_helpers.ph_exception_helper: <module 'play_helpers.ph_exception_helper' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_exception_helper.py'>
 play_helpers.ph_modules: <module 'play_helpers.ph_modules' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_modules.py'>
+play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
 psutil._common: <module 'psutil._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_common.py'>
 psutil._ntuples: <module 'psutil._ntuples' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_ntuples.py'>
 psutil._psutil_windows: <module 'psutil._psutil_windows' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_psutil_windows.pyd'>
@@ -3006,6 +3140,7 @@ psutil._pswindows: <module 'psutil._pswindows' from 'D:\\Other\\Github_Self\\pla
 psutil: <module 'psutil' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\__init__.py'>
 play_helpers.ph_util: <module 'play_helpers.ph_util' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_util.py'>
 play_helpers.ph_crypto: <module 'play_helpers.ph_crypto' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_crypto.py'>
+play_helpers.ph_misc: <module 'play_helpers.ph_misc' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_misc.py'>
 play_helpers.ph_time: <module 'play_helpers.ph_time' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_time.py'>
 play_helpers.test: <module 'play_helpers.test' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test\\__init__.py'>
 concurrent: <module 'concurrent' from 'D:\\ProgramFiles\\Python39\\lib\\concurrent\\__init__.py'>
@@ -3221,6 +3356,11 @@ string: <module 'string' from 'D:\\ProgramFiles\\Python39\\lib\\string.py'>
 zipfile: <module 'zipfile' from 'D:\\ProgramFiles\\Python39\\lib\\zipfile.py'>
 _datetime: <module '_datetime' (built-in)>
 datetime: <module 'datetime' from 'D:\\ProgramFiles\\Python39\\lib\\datetime.py'>
+_csv: <module '_csv' (built-in)>
+csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
+email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
+configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
+importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 __future__: <module '__future__' from 'D:\\ProgramFiles\\Python39\\lib\\__future__.py'>
 numpy._utils._convertions: <module 'numpy._utils._convertions' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\_convertions.py'>
 numpy._utils: <module 'numpy._utils' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\numpy\\_utils\\__init__.py'>
@@ -3363,7 +3503,7 @@ zoneinfo._common: <module 'zoneinfo._common' from 'D:\\ProgramFiles\\Python39\\l
 _zoneinfo: <module '_zoneinfo' from 'D:\\ProgramFiles\\Python39\\DLLs\\_zoneinfo.pyd'>
 zoneinfo: <module 'zoneinfo' from 'D:\\ProgramFiles\\Python39\\lib\\zoneinfo\\__init__.py'>
 six: <module 'six' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\six.py'>
-six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x000001A2287CDF70>)>
+six.moves: <module 'six.moves' (<six._SixMetaPathImporter object at 0x00000222F461D7F0>)>
 dateutil.tz._common: <module 'dateutil.tz._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_common.py'>
 dateutil.tz._factories: <module 'dateutil.tz._factories' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\dateutil\\tz\\_factories.py'>
 ctypes.wintypes: <module 'ctypes.wintypes' from 'D:\\ProgramFiles\\Python39\\lib\\ctypes\\wintypes.py'>
@@ -3474,8 +3614,6 @@ pandas.tseries.frequencies: <module 'pandas.tseries.frequencies' from 'D:\\Other
 pandas.core.arrays.arrow.array: <module 'pandas.core.arrays.arrow.array' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py'>
 pandas.core.arrays.arrow: <module 'pandas.core.arrays.arrow' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py'>
 pandas.core.arrays.boolean: <module 'pandas.core.arrays.boolean' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py'>
-_csv: <module '_csv' (built-in)>
-csv: <module 'csv' from 'D:\\ProgramFiles\\Python39\\lib\\csv.py'>
 pandas.core.accessor: <module 'pandas.core.accessor' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\accessor.py'>
 pandas.core.base: <module 'pandas.core.base' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\base.py'>
 pandas.core.arrays.categorical: <module 'pandas.core.arrays.categorical' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py'>
@@ -3664,9 +3802,6 @@ pandas.io.api: <module 'pandas.io.api' from 'D:\\Other\\Github_Self\\playhelpers
 pandas.util._tester: <module 'pandas.util._tester' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\util\\_tester.py'>
 pandas._version_meson: <module 'pandas._version_meson' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\_version_meson.py'>
 pandas: <module 'pandas' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\pandas\\__init__.py'>
-email: <module 'email' from 'D:\\ProgramFiles\\Python39\\lib\\email\\__init__.py'>
-configparser: <module 'configparser' from 'D:\\ProgramFiles\\Python39\\lib\\configparser.py'>
-importlib.metadata: <module 'importlib.metadata' from 'D:\\ProgramFiles\\Python39\\lib\\importlib\\metadata.py'>
 atexit: <module 'atexit' (built-in)>
 logging: <module 'logging' from 'D:\\ProgramFiles\\Python39\\lib\\logging\\__init__.py'>
 _socket: <module '_socket' from 'D:\\ProgramFiles\\Python39\\DLLs\\_socket.pyd'>
@@ -3860,8 +3995,10 @@ ruamel.yaml.dumper: <module 'ruamel.yaml.dumper' from 'D:\\Other\\Github_Self\\p
 ruamel.yaml.main: <module 'ruamel.yaml.main' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\main.py'>
 ruamel.yaml: <module 'ruamel.yaml' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\ruamel\\yaml\\__init__.py'>
 play_helpers.ph_keys: <module 'play_helpers.ph_keys' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_keys.py'>
-play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
+play_helpers._common: <module 'play_helpers._common' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_common.py'>
+play_helpers.ph_exception_helper: <module 'play_helpers.ph_exception_helper' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_exception_helper.py'>
 play_helpers.ph_modules: <module 'play_helpers.ph_modules' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_modules.py'>
+play_helpers._expired_attributes: <module 'play_helpers._expired_attributes' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\_expired_attributes.py'>
 psutil._common: <module 'psutil._common' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_common.py'>
 psutil._ntuples: <module 'psutil._ntuples' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_ntuples.py'>
 psutil._psutil_windows: <module 'psutil._psutil_windows' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\_psutil_windows.pyd'>
@@ -3869,6 +4006,7 @@ psutil._pswindows: <module 'psutil._pswindows' from 'D:\\Other\\Github_Self\\pla
 psutil: <module 'psutil' from 'D:\\Other\\Github_Self\\playhelpers\\venv_39\\lib\\site-packages\\psutil\\__init__.py'>
 play_helpers.ph_util: <module 'play_helpers.ph_util' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_util.py'>
 play_helpers.ph_crypto: <module 'play_helpers.ph_crypto' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_crypto.py'>
+play_helpers.ph_misc: <module 'play_helpers.ph_misc' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_misc.py'>
 play_helpers.ph_time: <module 'play_helpers.ph_time' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_time.py'>
 play_helpers.test: <module 'play_helpers.test' from 'D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test\\__init__.py'>
 concurrent: <module 'concurrent' from 'D:\\ProgramFiles\\Python39\\lib\\concurrent\\__init__.py'>
@@ -4056,6 +4194,7 @@ SEARCH_TYPE_REGEX
 FILE_EXTN_TMP
 SEPERATOR_TWO_WORDS
 SEPERATOR_TWO_LINES
+SEPERATOR_TWO_DATA_SET
 SEPERATOR_TWO_LINES_MULTI
 SEPERATOR_FILE_NAME
 SEPERATOR_ONE_LINE
@@ -4094,6 +4233,7 @@ EXPORT_ERROR
 READ_WRITE_ERROR
 WRITE_PATH_ERROR
 TIME_OUT_ERROR
+PACKAGE_NOT_FOUND_ERROR
 NON_ZERO_EXIT_STATUS_ERROR
 INPUTS_ERROR
 INVALID_RAW_DATA
@@ -4191,6 +4331,7 @@ check_if_iter
 clean_names
 clear_quotation_marks
 combine_list_items
+combine_list_items_lite
 compare_two_data_frame
 count
 cpu_usage
@@ -4213,6 +4354,7 @@ find_offset_of_section
 format_data_as_hex
 format_profile_parsing_log
 format_time
+format_tool_name_w_version
 gen_acc
 gen_isim_data
 generalise_list
@@ -4223,6 +4365,7 @@ generate_range_str
 generate_test_data
 generate_transaction_id
 get_absolute_path
+get_all_installed_distributions
 get_classes_list
 get_current_dir_path
 get_current_func_name
@@ -4296,6 +4439,7 @@ popup_msg
 prepare_file_name
 print
 print_all_environment_variables
+print_all_installed_distributions
 print_cmt
 print_data
 print_data_frame
@@ -4306,6 +4450,7 @@ print_heading
 print_input_output
 print_iter
 print_modules
+print_output
 print_separator
 print_version
 print_work_in_progress
@@ -4319,6 +4464,7 @@ rstrip_hex_str
 rstrip_str
 set_if_empty
 set_if_none
+set_if_unknown
 set_type_if_different
 str_insert_char_repeatedly
 str_to_bool
@@ -4330,6 +4476,7 @@ to_file
 to_hex_string
 to_json
 to_list
+to_list_lite
 traverse_it
 traverse_modes
 trim_and_kill_all_white_spaces
@@ -4341,6 +4488,7 @@ zip_and_clean_dir
 ------------------------------------ cls_to_explore=PhUtil, obj_name_filter='print' ------------------------------------
 print
 print_all_environment_variables
+print_all_installed_distributions
 print_cmt
 print_data
 print_data_frame
@@ -4351,6 +4499,7 @@ print_heading
 print_input_output
 print_iter
 print_modules
+print_output
 print_separator
 print_version
 print_work_in_progress
@@ -4365,6 +4514,7 @@ __name__
 __package__
 __path__
 __spec__
+_common
 _expired_attributes
 _git_info
 _tool_name
@@ -4373,9 +4523,11 @@ ph_constants
 ph_constants_config
 ph_crypto
 ph_defaults
+ph_exception_helper
 ph_file_extensions
 ph_git
 ph_keys
+ph_misc
 ph_modes_error_handling
 ph_modes_execution
 ph_modules
@@ -4389,9 +4541,11 @@ ph_constants
 ph_constants_config
 ph_crypto
 ph_defaults
+ph_exception_helper
 ph_file_extensions
 ph_git
 ph_keys
+ph_misc
 ph_modes_error_handling
 ph_modes_execution
 ph_modules
@@ -4552,9 +4706,7 @@ include_dirs: []
 excludes: []
 Count is: 35
 D:\Other\Github_Self\playhelpers\play_helpers\test\abc.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240819_202659272163.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240908_205828490575.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260208_025219068461.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260308_121149941218.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\Test Results - Unittests_in_test_util_py.html
@@ -4563,16 +4715,8 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_keep_source_path_is_dest_path.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_source_dir_custom_extn_files.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260208_025219083419.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195100361051.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195115172133.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_202659303119.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240908_205828521210.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260208_025219099414.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260308_121149957213.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260308_121149972595.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.ini
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.list
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.txt
@@ -4584,8 +4728,17 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\res\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_chars_to_utf8.asn
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_false.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_true.zip
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-39.pyc
 
 ---------------------------------------- include_files=inc_files_pattern_dual_ok ---------------------------------------
@@ -4594,17 +4747,13 @@ top: D:\Other\Github_Self\playhelpers\play_helpers\test
 include_files: ['*.py', '*.txt']
 include_dirs: []
 excludes: []
-Count is: 13
+Count is: 9
 D:\Other\Github_Self\playhelpers\play_helpers\test\abc.txt
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260208_025219083419.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260308_121149957213.txt
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.txt
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc_list.txt
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\def.txt
@@ -4615,7 +4764,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers\test\..
 include_files: []
 include_dirs: []
 excludes: []
-Count is: 83
+Count is: 131
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_constants.py
@@ -4630,6 +4779,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modules.py
@@ -4637,6 +4787,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_tool_name.py
@@ -4645,28 +4796,18 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\__init__.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\tbd\ch_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\tbd\constantsMM.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\tbd\funcs.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\tbd\ph_hash.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\abc.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup_20240819_202659272163.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup_20240908_205828490575.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup_20260208_025219068461.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup_20260308_121149941218.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\ph_constants_test.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\Test Results - Unittests_in_test_util_py.html
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\test_zipfile_keep_source_path_is_dest_path.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\test_zipfile_source_dir_custom_extn_files.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20260208_025219083419.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20240819_195100361051.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20240819_195115172133.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20240819_202659303119.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20240908_205828521210.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20260208_025219099414.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\a_b_c_backup_20260308_121149957213.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\backup\backup_20260308_121149972595.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\data\abc.ini
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\data\abc.list
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\data\abc.txt
@@ -4678,26 +4819,82 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\res\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\res\test_chars_to_utf8.asn
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\res\test_zipfile_keep_source_dir_in_zip_false.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\res\test_zipfile_keep_source_dir_in_zip_true.zip
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\test_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\test\__pycache__\__init__.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_colors.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_crypto.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_crypto.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_crypto.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_data_master.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_defaults.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_defaults.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_defaults.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_dos.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_exception.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_exception_helper.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_file_extensions.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_file_extensions.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_file_extensions.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_formats.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_git.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_git.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_git.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_keys.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_keys.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_keys.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_misc.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_misc.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_error_handling.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_error_handling.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_error_handling.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_execution.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_execution.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modes_execution.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modules.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modules.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_modules.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_process.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_process.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_process.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_time.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_time.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_time.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\ph_variables.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_common.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_expired_attributes.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_expired_attributes.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_expired_attributes.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_git_info.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_git_info.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_git_info.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_tool_name.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_tool_name.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_tool_name.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_version.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_version.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\_version.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\__pycache__\__init__.cpython-39.pyc
 
 ----------------------------------- src_dir_rel, include_files=inc_files_pattern1_ok -----------------------------------
@@ -4706,7 +4903,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers\test\..
 include_files: ['*.py']
 include_dirs: []
 excludes: []
-Count is: 33
+Count is: 35
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_constants.py
@@ -4721,6 +4918,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_modules.py
@@ -4728,6 +4926,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\..\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\..\_tool_name.py
@@ -4747,7 +4946,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: ['*.py']
 include_dirs: []
 excludes: []
-Count is: 33
+Count is: 35
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
@@ -4762,6 +4961,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -4769,6 +4969,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -4798,7 +4999,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: ['*_*.py']
 include_dirs: []
 excludes: []
-Count is: 33
+Count is: 35
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
@@ -4813,6 +5014,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -4820,6 +5022,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -4886,23 +5089,33 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: ['*ph_bit*']
 include_dirs: []
 excludes: []
-Count is: 1
+Count is: 2
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+
 -------------------------- src_dir, include_files=inc_files_name_pattern_star_wo_ext_multi_ok --------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: ['*ph_bit*', '*ph_constant*', '*ph_data_*']
 include_dirs: []
 excludes: []
-Count is: 8
+Count is: 16
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants_config.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_data_master.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_data_master.cpython-39.pyc
 
 ----------- src_dir, include_files=inc_files_name_pattern_star_wo_ext_multi_ok, excludes=exc_files_pattern_ok ----------
 traverse_mode: Regex
@@ -4975,7 +5188,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: []
 include_dirs: []
 excludes: ['ph_bits.py']
-Count is: 83
+Count is: 131
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
@@ -4990,6 +5203,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -4997,6 +5211,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -5006,9 +5221,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\tbd\ch_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\constantsMM.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\funcs.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\abc.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240819_202659272163.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240908_205828490575.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260208_025219068461.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260308_121149941218.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\Test Results - Unittests_in_test_util_py.html
@@ -5017,16 +5230,8 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_keep_source_path_is_dest_path.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_source_dir_custom_extn_files.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260208_025219083419.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195100361051.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195115172133.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_202659303119.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240908_205828521210.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260208_025219099414.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260308_121149957213.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260308_121149972595.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.ini
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.list
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.txt
@@ -5038,26 +5243,82 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\res\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_chars_to_utf8.asn
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_false.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_true.zip
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_colors.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_data_master.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_dos.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception_helper.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_formats.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_variables.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_common.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-39.pyc
 
 ------------------------------------------ src_dir, excludes=exc_dir_name_nok ------------------------------------------
@@ -5066,7 +5327,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: []
 include_dirs: []
 excludes: ['test']
-Count is: 83
+Count is: 131
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
@@ -5081,6 +5342,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -5088,6 +5350,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -5096,11 +5359,8 @@ D:\Other\Github_Self\playhelpers\play_helpers\__init__.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\ch_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\constantsMM.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\funcs.py
-D:\Other\Github_Self\playhelpers\play_helpers\tbd\ph_hash.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\abc.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240819_202659272163.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240908_205828490575.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260208_025219068461.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260308_121149941218.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\Test Results - Unittests_in_test_util_py.html
@@ -5109,16 +5369,8 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_keep_source_path_is_dest_path.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_source_dir_custom_extn_files.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260208_025219083419.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195100361051.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195115172133.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_202659303119.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240908_205828521210.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260208_025219099414.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260308_121149957213.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260308_121149972595.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.ini
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.list
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.txt
@@ -5130,26 +5382,82 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\res\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_chars_to_utf8.asn
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_false.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_true.zip
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_colors.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_data_master.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_dos.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception_helper.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_formats.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_variables.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_common.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-39.pyc
 
 ------------------------------------------ src_dir, excludes=exc_file_path_ok ------------------------------------------
@@ -5158,7 +5466,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: []
 include_dirs: []
 excludes: ['D:\\Other\\Github_Self\\playhelpers\\play_helpers\\ph_bits.py']
-Count is: 82
+Count is: 130
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants_config.py
@@ -5172,6 +5480,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -5179,6 +5488,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -5188,26 +5498,17 @@ D:\Other\Github_Self\playhelpers\play_helpers\tbd\ch_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\constantsMM.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\funcs.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\abc.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240819_202659272163.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20240908_205828490575.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260208_025219068461.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup_20260308_121149941218.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\ph_constants_test.py
+D:\Other\Github_Self\playhelpers\play_helpers\test\Test Results - Unittests_in_test_util_py.html
 D:\Other\Github_Self\playhelpers\play_helpers\test\test.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_keep_source_path_is_dest_path.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\test_zipfile_source_dir_custom_extn_files.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\__init__.py
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_165610820720.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_170029648753.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_185514051480.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20240819_202659287121.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260208_025219083419.txt
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195100361051.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_195115172133.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240819_202659303119.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20240908_205828521210.bkp
-D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260208_025219099414.bkp
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\a_b_c_backup_20260308_121149957213.txt
+D:\Other\Github_Self\playhelpers\play_helpers\test\backup\backup_20260308_121149972595.bkp
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.ini
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.list
 D:\Other\Github_Self\playhelpers\play_helpers\test\data\abc.txt
@@ -5219,26 +5520,82 @@ D:\Other\Github_Self\playhelpers\play_helpers\test\res\data.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_chars_to_utf8.asn
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_false.zip
 D:\Other\Github_Self\playhelpers\play_helpers\test\res\test_zipfile_keep_source_dir_in_zip_true.zip
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\ph_constants_test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\test_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\test\__pycache__\__init__.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_colors.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_data_master.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_dos.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception_helper.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_formats.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_variables.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_common.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-39.pyc
 
 ------------------------------------------- src_dir, excludes=exc_dir_path_ok ------------------------------------------
@@ -5247,7 +5604,7 @@ top: D:\Other\Github_Self\playhelpers\play_helpers
 include_files: []
 include_dirs: []
 excludes: ['D:\\Other\\Github_Self\\playhelpers\\play_helpers\\test']
-Count is: 47
+Count is: 96
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_colors.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py
@@ -5262,6 +5619,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_file_extensions.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_formats.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_git.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_keys.py
+D:\Other\Github_Self\playhelpers\play_helpers\ph_misc.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_error_handling.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modes_execution.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_modules.py
@@ -5269,6 +5627,7 @@ D:\Other\Github_Self\playhelpers\play_helpers\ph_process.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_time.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\ph_variables.py
+D:\Other\Github_Self\playhelpers\play_helpers\_common.py
 D:\Other\Github_Self\playhelpers\play_helpers\_expired_attributes.py
 D:\Other\Github_Self\playhelpers\play_helpers\_git_info.py
 D:\Other\Github_Self\playhelpers\play_helpers\_tool_name.py
@@ -5277,23 +5636,70 @@ D:\Other\Github_Self\playhelpers\play_helpers\__init__.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\ch_util.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\constantsMM.py
 D:\Other\Github_Self\playhelpers\play_helpers\tbd\funcs.py
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_bits.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_colors.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_constants_config.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_crypto.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_data_master.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_defaults.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_dos.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_exception_helper.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_file_extensions.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_formats.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_git.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_keys.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-314.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_misc.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_error_handling.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modes_execution.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_modules.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_process.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_time.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_util.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\ph_variables.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_common.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_expired_attributes.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_git_info.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_tool_name.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\_version.cpython-39.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-311.pyc
+D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-314.pyc
 D:\Other\Github_Self\playhelpers\play_helpers\__pycache__\__init__.cpython-39.pyc
 
 ------------------------------------------------------- test_eid -------------------------------------------------------
@@ -5569,70 +5975,80 @@ Remarks: input Data                      ; input:        ; type: <class 'str'>, 
 Remarks: trim_white_spaces_in_str        ; output: ; type: <class 'str'>, length: 0
 Remarks: trim_and_kill_all_white_spaces  ; output: ; type: <class 'str'>, length: 0
 Remarks: trim_and_kill_extra_white_spaces; output: ; type: <class 'str'>, length: 0
-
+     -----     
 Remarks: input Data                      ; input:  rgdrg  rtert; type: <class 'str'>, length: 13
 Remarks: trim_white_spaces_in_str        ; output: rgdrg  rtert; type: <class 'str'>, length: 12
 Remarks: trim_and_kill_all_white_spaces  ; output: rgdrgrtert; type: <class 'str'>, length: 10
 Remarks: trim_and_kill_extra_white_spaces; output: rgdrg rtert; type: <class 'str'>, length: 11
-
+     -----     
 Remarks: input Data                      ; input:  rgdrg                          rtert; type: <class 'str'>, length: 37
 Remarks: trim_white_spaces_in_str        ; output: rgdrg                          rtert; type: <class 'str'>, length: 36
 Remarks: trim_and_kill_all_white_spaces  ; output: rgdrgrtert; type: <class 'str'>, length: 10
 Remarks: trim_and_kill_extra_white_spaces; output: rgdrg rtert; type: <class 'str'>, length: 11
-
+     -----     
 Remarks: input Data                      ; input:    rgdrg                      rte
             rt; type: <class 'str'>, length: 48
 Remarks: trim_white_spaces_in_str        ; output: rgdrg                      rte
             rt; type: <class 'str'>, length: 45
 Remarks: trim_and_kill_all_white_spaces  ; output: rgdrgrtert; type: <class 'str'>, length: 10
 Remarks: trim_and_kill_extra_white_spaces; output: rgdrg rte rt; type: <class 'str'>, length: 12
-
+     -----     
 Remarks: input Data                      ; input: \85; type: <class 'str'>, length: 3
 Remarks: trim_white_spaces_in_str        ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_all_white_spaces  ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_extra_white_spaces; output: \85; type: <class 'str'>, length: 3
-
+     -----     
 Remarks: input Data                      ; input: \85 ; type: <class 'str'>, length: 4
 Remarks: trim_white_spaces_in_str        ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_all_white_spaces  ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_extra_white_spaces; output: \85; type: <class 'str'>, length: 3
-
+     -----     
 Remarks: input Data                      ; input: ; type: <class 'str'>, length: 1
 Remarks: trim_white_spaces_in_str        ; output: ; type: <class 'str'>, length: 0
 Remarks: trim_and_kill_all_white_spaces  ; output: ; type: <class 'str'>, length: 0
 Remarks: trim_and_kill_extra_white_spaces; output: ; type: <class 'str'>, length: 0
-
+     -----     
 Remarks: input Data                      ; input:  \85 ; type: <class 'str'>, length: 5
 Remarks: trim_white_spaces_in_str        ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_all_white_spaces  ; output: \85; type: <class 'str'>, length: 3
 Remarks: trim_and_kill_extra_white_spaces; output: \85; type: <class 'str'>, length: 3
-
+     -----     
 ---------------------------------------------- test_last_modification_time ---------------------------------------------
 D:\Other\Github_Self\playhelpers\play_helpers\ph_bits.py: 2026-02-07 16:23:41.604213
-D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py: 2026-02-07 16:23:41.605210
+D:\Other\Github_Self\playhelpers\play_helpers\ph_constants.py: 2026-03-08 10:18:35.739699
 D:\Other\Github_Self\playhelpers\play_helpers\ph_data_master.py: 2026-02-07 16:23:41.608213
-D:\Other\Github_Self\playhelpers\play_helpers\test: 2026-02-27 10:44:49.410161
-D:\Other\Github_Self\playhelpers\play_helpers\test: 2026-02-27 10:44:49.410161
-D:\Other\Github_Self\playhelpers\play_helpers\test\test.py: 2026-02-07 21:48:48.692509
-test.py: 2026-02-07 21:48:48.692509
+D:\Other\Github_Self\playhelpers\play_helpers\test: 2026-03-08 11:57:49.746583
+D:\Other\Github_Self\playhelpers\play_helpers\test: 2026-03-08 11:57:49.746583
+D:\Other\Github_Self\playhelpers\play_helpers\test\test.py: 2026-03-08 11:57:13.820055
+test.py: 2026-03-08 11:57:13.820055
+------------------------------------------------- test_generate_filters ------------------------------------------------
+notepad++
+!+\data !+\log* !+\venv* !+\.venv* !+\build* !+\.idea !+\.git !+\.vscode !+\.eggs !+\*.egginfo !+\__pycache__ !+\.eggs !+\bin !+\classes !+\javadoc !*.log* !*.gitignore !*.7z !*.rar !*.zip !*.tar !*.gz !*.class !*.pyc !*.obj !*.jar !*.lnk !*.dll !*.exe !*.bin !*.rpm !*.doc !*.docx !*.pdf !*.vsd !*.html !*.js !*.ini !*.asc !*.bson !*.idx !*.ttf
+     -----     
+beyond compare
+-data\;-log*\;-venv*\;-.venv*\;-build*\;-.idea\;-.git\;-.vscode\;-.eggs\;-*.egginfo\;-__pycache__\;-.eggs\;-bin\;-classes\;-javadoc\;-*.log*;-*.gitignore;-*.7z;-*.rar;-*.zip;-*.tar;-*.gz;-*.class;-*.pyc;-*.obj;-*.jar;-*.lnk;-*.dll;-*.exe;-*.bin;-*.rpm;-*.doc;-*.docx;-*.pdf;-*.vsd;-*.html;-*.js;-*.ini;-*.asc;-*.bson;-*.idx;-*.ttf
+     -----     
+Unknown Tool
+!+\data !+\log* !+\venv* !+\.venv* !+\build* !+\.idea !+\.git !+\.vscode !+\.eggs !+\*.egginfo !+\__pycache__ !+\.eggs !+\bin !+\classes !+\javadoc !*.log* !*.gitignore !*.7z !*.rar !*.zip !*.tar !*.gz !*.class !*.pyc !*.obj !*.jar !*.lnk !*.dll !*.exe !*.bin !*.rpm !*.doc !*.docx !*.pdf !*.vsd !*.html !*.js !*.ini !*.asc !*.bson !*.idx !*.ttf
+     -----     
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2026-02-27 10:44:49.426166+05:30
-Execution Time: 00:00:15; Milliseconds: 15798.604726791382
-Execution Time CPU: 00:00:01; Milliseconds: 1546.875
+Current Time Stamp: 2026-03-08 12:11:50.727691+05:30
+Execution Time: 00:00:33; Milliseconds: 33413.44451904297
+Execution Time CPU: 00:00:01; Milliseconds: 1703.125
 Timer State: TIMER_ON
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2026-02-27 10:44:54.443756+05:30
-Execution Time: 00:00:20; Milliseconds: 20801.718950271606
-Execution Time CPU: 00:00:01; Milliseconds: 1546.875
+Current Time Stamp: 2026-03-08 12:11:55.752192+05:30
+Execution Time: 00:00:38; Milliseconds: 38437.894105911255
+Execution Time CPU: 00:00:01; Milliseconds: 1703.125
 Timer State: TIMER_ON
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2026-02-27 10:44:54.459061+05:30
-Execution Time: 00:00:20; Milliseconds: 20817.200422286987
-Execution Time CPU: 00:00:01; Milliseconds: 1546.875
+Current Time Stamp: 2026-03-08 12:11:55.768144+05:30
+Execution Time: 00:00:38; Milliseconds: 38453.941822052
+Execution Time CPU: 00:00:01; Milliseconds: 1703.125
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-                   All Done. (2026-02-27 10:44:54.475283+05:30)                   
+                   All Done. (2026-03-08 12:11:55.784142+05:30)                   
 --------------------------------------------------------------------------------

@@ -342,10 +342,10 @@ hs_err_pid*.log
 **/dts
 
 # Backup Folders & Files
-**/backup
-**/bkp
+# **/backup
+# **/bkp
 **/tbd
-**/*.bkp
+# **/*.bkp
 **/*.bak
 **/*.tbd
 

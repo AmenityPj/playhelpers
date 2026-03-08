@@ -8,6 +8,7 @@ class PhDefaults:
     #############
     # Version Objects
     #############
+    DUMMY_VERSION = '-1.-1.-1'
     VERSION = '1.0.1'
     #############
     # Generic Objects

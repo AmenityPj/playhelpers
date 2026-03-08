@@ -1,10 +1,9 @@
-from collections import OrderedDict
-
 import copy
 import os
 import sys
 import time
 import unittest
+from collections import OrderedDict
 
 import play_helpers
 from play_helpers.ph_constants import PhConstants
@@ -13,7 +12,8 @@ from play_helpers.ph_crypto import PhCrypto
 from play_helpers.ph_defaults import PhDefaults
 from play_helpers.ph_git import PhGit
 from play_helpers.ph_keys import PhKeys
-from play_helpers.ph_modules import PhModules
+from play_helpers.ph_misc import PhMisc
+from play_helpers.ph_modules import PhModules, PhApps
 from play_helpers.ph_time import PhTime
 from play_helpers.ph_util import PhUtil
 from play_helpers.test import test_util
@@ -230,6 +230,19 @@ def test_temp():
     PhUtil.print_heading()
 
 
+def test_open_bugs():
+    PhUtil.print_heading()
+    #
+    # Package not found
+    #
+    # Expected Output:
+    #   ruamel.yaml: v0.18.6
+    # Actual Output:
+    #   Known Exception Occurred; Summary: package not found error; Details: ruamel.yaml
+    #   ruamel.yaml version is -1.-1.-1
+    PhUtil.print_version('ruamel.yaml', fetch_tool_version=True)
+
+
 def test_hash():
     PhUtil.print_heading()
     PhUtil.print_heading(str_heading='hash_algos_list')
@@ -409,6 +422,14 @@ def test_print_modules():
     PhUtil.print_modules()
     PhUtil.print_heading(str_heading="filter_string='play_helpers'")
     PhUtil.print_modules(filter_string='play_helpers')
+
+
+def test_print_all_installed_distributions():
+    PhUtil.print_heading()
+    PhUtil.print_heading(str_heading='dic_format=True')
+    PhUtil.print_all_installed_distributions(dic_format=True)
+    PhUtil.print_heading(str_heading='dic_format=False')
+    PhUtil.print_all_installed_distributions(dic_format=False)
 
 
 def test_generalise_list():
@@ -831,8 +852,10 @@ def test_last_modification_time():
         path_current_script,
         name_current_script,
     ]
-    for input_data in PhUtil.normalise_list(input_data_set):
-        print(f'{input_data}: {PhUtil.last_modification_time(file_or_folder_path=input_data)}')
+    for _input_data_set in input_data_set:
+        for input_data in PhUtil.normalise_list(_input_data_set):
+            print(f'{input_data}: {PhUtil.last_modification_time(file_or_folder_path=input_data)}')
+        print(PhConstants.SEPERATOR_TWO_DATA_SET)
 
 
 def test_generate_test_data():
@@ -857,6 +880,18 @@ def test_generate_test_data():
         PhUtil.get_key_value_pair(key='Test Data', value=test_data, print_also=True, length_needed=True)
 
 
+def test_generate_filters():
+    PhUtil.print_heading()
+    tool_pool = \
+        [
+            PhApps.NOTEPAD_PLUS_PLUS,
+            PhApps.BEYOND_COMPARE,
+            'Unknown Tool',
+        ]
+    for tool in tool_pool:
+        PhUtil.print_output(heading=tool, output_data=PhMisc.generate_filters(tool))
+
+
 def test_functions(ph_time):
     """
 
@@ -864,7 +899,8 @@ def test_functions(ph_time):
     :return:
     """
     test_temp()
-    ## Keep on the 2nd Number
+    test_open_bugs()
+    ## Keep on the 3rd Number
     ##
     test_version()
     test_parse_config()
@@ -881,6 +917,7 @@ def test_functions(ph_time):
     test_python_friendly_name()
     test_remarks_append_post()
     test_remarks_append_pre()
+    test_print_all_installed_distributions()
     test_print_modules()
     test_print_iter()
     test_obj_list()
@@ -896,6 +933,7 @@ def test_functions(ph_time):
     test_generate_test_data()
     test_trim_white_spaces_in_str()
     test_last_modification_time()
+    test_generate_filters()
     ##
     ## Keep on last
     test_time_delay(ph_time)
@@ -914,11 +952,15 @@ def main():
     """
     Process
     """
+    #	
     # Temp Test Cases
-    # test_last_modification_time()
+    #	
+    # test_temp()
+    # test_open_bugs()
+    #
     # Regular Test Cases
+    #
     test_functions(ph_time)
-    # test_print_iter()
     """
     Wrap up 
     """
