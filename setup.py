@@ -30,6 +30,9 @@ install_reqs = [
     'ruamel.yaml',
     'sphinx',
     'sphinx_rtd_theme',
+    'coverage',
+    'flake8',
+    'pytest',
 ]
 
 # build-time dependencies

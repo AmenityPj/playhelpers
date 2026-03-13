@@ -28,3 +28,12 @@ sphinx
 
 # sphinx Docs Theme
 sphinx_rtd_theme
+
+# coverage
+coverage
+
+# Source linting
+flake8
+
+# UT
+pytest

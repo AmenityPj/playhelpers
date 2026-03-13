@@ -6,7 +6,6 @@ echo Export Path: %export_path%
 echo Listing requirements
 pip list
 
-
 echo Exporting requirements to %export_path%
 pip freeze > %export_path%
 
