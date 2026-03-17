@@ -8,7 +8,7 @@ from play_helpers.ph_constants_config import PhConfigConst
 # all packages dependencies
 packages = find_packages()
 if not packages:
-    print(f'Selecting Hardcoded Packages')
+    print('Selecting Hardcoded Packages')
     packages = [
         PhConfigConst.TOOL_PACKAGE_NAME,
         PhConfigConst.TOOL_TEST_PACKAGE_NAME,
