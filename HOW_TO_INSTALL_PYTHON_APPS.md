@@ -85,9 +85,11 @@ pip install git+https://github.com/AmenityPj/playhelpers@v7.0.0
 
 # Directly from Local Cloned Copy (Shell)
 pip install /Users/amenitypj/github/playhelpers
+pip install ../playhelpers
 
 # Directly from Local Cloned Copy (Windows)
 pip install C:\Users\amenitypj\github\playhelpers
+pip install ..\playhelpers
 ```
 
 Manual installation using setup.py

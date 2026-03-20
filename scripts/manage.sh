@@ -1,7 +1,7 @@
 #!/bin/bash
 # =============================================================================
 # manage.sh — Unified management script
-# version: 1.0
+# version: 1.1
 #
 # Usage:
 #   ./manage.sh <command> [options]
@@ -15,8 +15,10 @@
 #                                                 types: all | internal_lib | internal_tool | external | build | cicd | experimental | name
 #   u, up, upgrade [type]                     Upgrade required dependencies (default: internal_lib)
 #                                                 types: all | internal_lib | internal_tool | external | build | cicd | experimental | pip
-#   l, ls, list [type]                        List & freeze installed dependencies  (default: env)
+#   l, ls, list [type]                        List & freeze installed dependencies (default: env)
 #                                                 types: env | system
+#   li, st, lint [type]                       Run lint checks (default: error)
+#                                                 types: error | warning
 #   t, test, tests, ut, unit-tests [type]     Run unit tests (default: full)
 #                                                 types: full | unit | package
 #   v, ver, version [type]                    Manage project version (default: patch)
@@ -35,6 +37,8 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT_DIR="${SCRIPT_DIR}/.."
+LOGS_DIR="${SCRIPT_DIR}/logs"
 
 _lc() {
     # macOS default bash (3.x) does not support ${var,,}
@@ -42,7 +46,6 @@ _lc() {
 }
 
 _load_venv_vars() {
-    output_path="logs"
     # Read the first line of the config file into a variable
     vir_env_path=$(head -n 1 "${SCRIPT_DIR}/config_vir_env.ini")
     # Extract the base directory name
@@ -98,9 +101,9 @@ _activate() {
     echo "Python Location"
     which "$python_bin"
 
-    if [ ! -d "${SCRIPT_DIR}/$output_path" ]; then
-        mkdir -p "${SCRIPT_DIR}/$output_path"
-        echo "${SCRIPT_DIR}/$output_path Directory created successfully."
+    if [ ! -d "${LOGS_DIR}" ]; then
+        mkdir -p "${LOGS_DIR}"
+        echo "${LOGS_DIR} Directory created successfully."
     fi
 
     echo ""
@@ -123,8 +126,8 @@ _version_specific() {
     local value="$3"
     local package_name
 
-    package_name=$(cat "${SCRIPT_DIR}/../package_name.txt")
-    local package_path="${SCRIPT_DIR}/../${package_name}"
+    package_name=$(cat "${ROOT_DIR}/package_name.txt")
+    local package_path="${ROOT_DIR}/${package_name}"
     
     # Sample: python -m incremental.update --path=../play_helpers play_helpers --dev
     # Sample: python -m incremental.update --path=../play_helpers play_helpers --patch
@@ -185,31 +188,31 @@ cmd_install() {
     case "$type" in
         all)
             echo "Installing all requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements.txt"
+            pip install -r "${ROOT_DIR}/requirements.txt"
             ;;
         internal_lib)
             echo "Installing internal lib requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_internal_lib.txt"
+            pip install -r "${ROOT_DIR}/requirements_internal_lib.txt"
             ;;
         internal_tool)
             echo "Installing internal tool requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_internal_tool.txt"
+            pip install -r "${ROOT_DIR}/requirements_internal_tool.txt"
             ;;
         external)
             echo "Installing external requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_external.txt"
+            pip install -r "${ROOT_DIR}/requirements_external.txt"
             ;;
         build)
             echo "Installing build requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_build.txt"
+            pip install -r "${ROOT_DIR}/requirements_build.txt"
             ;;
         cicd)
             echo "Installing CI CD requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_cicd.txt"
+            pip install -r "${ROOT_DIR}/requirements_cicd.txt"
             ;;
         experimental)
             echo "Installing experimental requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_experimental.txt"
+            pip install -r "${ROOT_DIR}/requirements_experimental.txt"
             ;;
         *)
             echo "ERROR: Unknown install type '$type'"
@@ -237,35 +240,35 @@ cmd_uninstall() {
     case "$type" in
         all)
             echo "UnInstalling all requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements.txt" -y
             ;;
         internal_lib)
             echo "UnInstalling internal lib requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_internal_lib.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_internal_lib.txt" -y
             ;;
         internal_tool)
             echo "UnInstalling internal tool requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_internal_tool.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_internal_tool.txt" -y
             ;;
         external)
             echo "UnInstalling external requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_external.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_external.txt" -y
             ;;
         build)
             echo "UnInstalling build requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_build.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_build.txt" -y
             ;;
         cicd)
             echo "UnInstalling CI CD requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_cicd.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_cicd.txt" -y
             ;;
         experimental)
             echo "UnInstalling experimental requirements"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_experimental.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_experimental.txt" -y
             ;;
         name)
             echo "UnInstalling requirements by name"
-            pip uninstall -r "${SCRIPT_DIR}/../requirements_name.txt" -y
+            pip uninstall -r "${ROOT_DIR}/requirements_name.txt" -y
             ;;
         *)
             echo "ERROR: Unknown uninstall type '$type'"
@@ -294,31 +297,31 @@ cmd_upgrade() {
         all)
             echo "Upgrading all requirements"
             "$python_bin" -m pip install --upgrade pip
-            pip install -r "${SCRIPT_DIR}/../requirements.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements.txt" --upgrade
             ;;
         internal_lib)
             echo "Upgrading internal lib requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_internal_lib.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_internal_lib.txt" --upgrade
             ;;
         internal_tool)
             echo "Upgrading internal tool requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_internal_tool.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_internal_tool.txt" --upgrade
             ;;
         external)
             echo "Upgrading external requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_external.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_external.txt" --upgrade
             ;;
         build)
             echo "Upgrading build requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_build.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_build.txt" --upgrade
             ;;
         cicd)
             echo "Upgrading CI CD requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_cicd.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_cicd.txt" --upgrade
             ;;
         experimental)
             echo "Upgrading experimental requirements"
-            pip install -r "${SCRIPT_DIR}/../requirements_experimental.txt" --upgrade
+            pip install -r "${ROOT_DIR}/requirements_experimental.txt" --upgrade
             ;;
         pip)
             "$python_bin" -m pip install --upgrade pip
@@ -351,8 +354,8 @@ cmd_list() {
 
     _fetch_os_type
 
-    local export_list_path="${SCRIPT_DIR}/${output_path}/requirements_list_${type}_${env_name}_${python_version}_${os_type}.log"
-    local export_freeze_path="${SCRIPT_DIR}/${output_path}/requirements_freeze_${type}_${env_name}_${python_version}_${os_type}.log"
+    local export_list_path="${LOGS_DIR}/requirements_list_${type}_${env_name}_${python_version}_${os_type}.log"
+    local export_freeze_path="${LOGS_DIR}/requirements_freeze_${type}_${env_name}_${python_version}_${os_type}.log"
 
     echo "Listing requirements"
     pip list
@@ -369,6 +372,45 @@ cmd_list() {
     fi
 }
 
+cmd_lint() {
+    local type="${1:-error}"
+    shift || true
+
+    case "$(_lc "$type")" in
+        e|err) type="error" ;;
+        w|wa|warn) type="warning" ;;
+    esac
+
+    _activate
+    _fetch_python_version
+    _fetch_os_type
+
+    local export_lint_error_path="${LOGS_DIR}/lint_${type}_${python_version}_${os_type}.log"
+    local export_lint_warn_path="${LOGS_DIR}/lint_${type}_${python_version}_${os_type}.log"
+
+    case "$type" in
+        error)
+            echo "Exporting Errors to $export_lint_error_path"
+            echo "Error Count is: "
+            # Check for Python syntax errors or undefined names
+            flake8 "${ROOT_DIR}" --tee --exit-zero --select=E9,F63,F7,F82 --output-file="${export_lint_error_path}"
+            ;;
+        warning)
+            echo "Exporting Warnings to $export_lint_warn_path"
+            echo "Warning Count is: "
+            # Check for other types of warnings.
+            flake8 "${ROOT_DIR}" --tee --exit-zero --max-complexity=10 --output-file="${export_lint_error_path}"
+            ;;
+        *)
+            echo "ERROR: Unknown lint type '$type'"
+            echo "Valid types: error | warning"
+            exit 1
+            ;;
+    esac
+
+    _deactivate
+}
+
 cmd_unit_tests() {
     local type="${1:-full}"
     shift || true
@@ -382,7 +424,7 @@ cmd_unit_tests() {
     case "$type" in
         full)
             _activate
-            local export_path="${SCRIPT_DIR}/${output_path}/run_tests_${vir_env_name}.log"
+            local export_path="${LOGS_DIR}/run_tests_${vir_env_name}.log"
             echo "Export Path: $export_path"
             echo "Starting App"
             cd "${SCRIPT_DIR}/.."
@@ -490,6 +532,7 @@ case "$(_lc "$COMMAND")" in
     un|rm) COMMAND="uninstall" ;;
     u|up) COMMAND="upgrade" ;;
     l|ls) COMMAND="list" ;;
+    li|st) COMMAND="lint" ;;
     t|test|tests|ut) COMMAND="unit-tests" ;;
     v|ver) COMMAND="version" ;;
     h|-h|--help) COMMAND="help" ;;
@@ -501,6 +544,7 @@ case "$COMMAND" in
     uninstall)      cmd_uninstall "$@" ;;
     upgrade)        cmd_upgrade "$@" ;;
     list)           cmd_list "$@" ;;
+    lint)           cmd_lint "$@" ;;
 # TODO: This needs to be fixed
 #    unit-tests)     cmd_unit_tests "$@" ;;
     version)        cmd_version "$@" ;;
