@@ -10,7 +10,7 @@ packages = find_packages()
 if not packages:
     print('Selecting Hardcoded Packages')
     packages = [
-        PhConfigConst.TOOL_PACKAGE_NAME,
+        PhConfigConst.TOOL_SW_PACKAGE_NAME,
         PhConfigConst.TOOL_TEST_PACKAGE_NAME,
     ]
 # Packages are ['play_helpers', 'play_helpers.test']
@@ -59,5 +59,5 @@ setup(
     python_requires=">=3.9",
     packages=packages,
     install_requires=install_reqs,
-    # test_suite="test.play_helpers",
+    # test_suite="test.sample_package",
 )

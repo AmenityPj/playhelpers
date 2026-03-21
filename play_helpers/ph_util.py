@@ -2312,7 +2312,16 @@ class PhUtil:
 
         :return:
         """
-        user_name = os.getlogin()
+        try:
+            user_name = os.getlogin()
+        except OSError:
+            # os.getlogin() fails in environments without a controlling terminal (e.g. CI/CD)
+            # Fall back to getpass.getuser() which uses env vars / pwd database
+            try:
+                import getpass
+                user_name = getpass.getuser()
+            except Exception:
+                user_name = os.environ.get('USER') or os.environ.get('USERNAME') or ''
         # print(f'User Account (getpass) is {getpass.getuser()}')
         # print(f'User Account (getlogin) is {os.getlogin()}')
         # if _ctypes_windll_available:
