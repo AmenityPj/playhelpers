@@ -9,7 +9,7 @@ class _PhCommon:
     This Class is mainly creates to avoid 'circular import' scenarios.
 
     Sample Error:
-    ImportError: cannot import name 'PhUtil' from partially initialized module 'play_helpers.ph_util' (most likely due to a circular import) (D:\Other\Github_Self\playhelpers\play_helpers\ph_util.py)
+    ImportError: cannot import name 'PhUtil' from partially initialized module 'play_helpers.ph_util' (most likely due to a circular import) (D:\Other\Github_Self\playHelpers\play_helpers\ph_util.py)
     """
 
     @classmethod

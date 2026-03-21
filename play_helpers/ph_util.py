@@ -95,7 +95,7 @@ class PhUtil:
             since = f" {details_dic.get('since')} release." if 'since' in details_dic else None
             alternate = f", use {details_dic.get('alternate')} instead !!!" if 'alternate' in details_dic else None
             raise AttributeError(''.join(filter(None, [
-                f"`{attr}` was removed in the playhelpers",
+                f"`{attr}` was removed in the {PhConfigConst.TOOL_NAME}",
                 f'{since}',
                 f'{alternate}',
             ])))

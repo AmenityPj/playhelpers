@@ -277,7 +277,7 @@ class PhKeys:
     SGP32 = 'SGP32'
     ASN1PLAY = 'asn1play'
     EUICC_PROFILE_PACKAGE = 'eUICC_Profile_Package'
-    playhelpers = 'playhelpers'
+    PLAY_HELPERS = 'playHelpers'
     TIME_STAMP = 'time_stamp'
 
     #

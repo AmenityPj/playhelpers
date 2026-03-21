@@ -68,7 +68,7 @@ The usual pip command(s) can be used for manual installation.
 
 Sample Command(s) (Recommended):
 ```
-pip install playhelpers
+pip install playHelpers
 
 pip install -r requirements.txt
 
@@ -111,7 +111,7 @@ The usual pip command(s) can be used for manual upgrade.
 ```
 Sample Command(s) (Recommended):
 
-pip install --upgrade playhelpers
+pip install --upgrade playHelpers
 pip install -r requirements.txt --upgrade
 pip install -r requirements_internal_lib.txt --upgrade
 ```

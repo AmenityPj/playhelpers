@@ -4,7 +4,7 @@ Sample Project
 Play Helpers
 }************************************************************{ 
 sampleproject
-playhelpers
+playHelpers
 }************************************************************{ 
 sample_project
 play_helpers
@@ -19,5 +19,5 @@ play_helpers
 /amenitypj.github.io/
 }************************************************************{ 
 pythonhelpers
-playhelpers
+playHelpers
 }--------------------------------------------------------------------------------{ 

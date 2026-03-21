@@ -5,10 +5,12 @@ from .ph_defaults import PhDefaults
 _run_time_incremental = False
 try:
     from ._version import __version__
+
     # incremental module is available post installation, run time only,
     _run_time_incremental = True
 except ImportError:
     pass
+
 
 class PhConfigConst:
     TOOL_VERSION = __version__.public() if _run_time_incremental else PhDefaults.VERSION
@@ -17,7 +19,7 @@ class PhConfigConst:
     TOOL_TITLE = TOOL_TITLE
     TOOL_SW_PACKAGE_NAME = TOOL_SW_PACKAGE_NAME
     TOOL_TEST_PACKAGE_NAME = TOOL_TEST_PACKAGE_NAME
-    TOOL_SW_MODULE_NAME = TOOL_SW_MODULE_NAME	
+    TOOL_SW_MODULE_NAME = TOOL_SW_MODULE_NAME
     TOOL_GIT_SUMMARY = GIT_SUMMARY
     TOOL_DESCRIPTION = f'A Python software package suite to provide various utility functions.'
     TOOL_META_DESCRIPTION = f'{TOOL_DESCRIPTION}'

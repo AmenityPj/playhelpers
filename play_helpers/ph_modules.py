@@ -1,5 +1,5 @@
 class PhModules:
-    PLAY_HELPERS = 'playhelpers'
+    PLAY_HELPERS = 'playHelpers'
     PYCRATE = 'pycrate'
     PYCRATE_VERSION_SUPPORTING_MULTI_LINE_COMMENTS = '0.5.4'
     SEGNO = 'segno'
