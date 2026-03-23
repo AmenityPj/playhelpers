@@ -1,4 +1,8 @@
 }--------------------------------------------------------------------------------{ 
+}--------------------------------------------------------------------------------{ Requirements files
+}--------------------------------------------------------------------------------{ 
+requirements_*.yml
+}--------------------------------------------------------------------------------{ 
 }--------------------------------------------------------------------------------{ Filters for BC & NPP
 }--------------------------------------------------------------------------------{ 
 D:\Other\Github_Personal\AmenityPjRaw\Beyond Compare.txt
@@ -26,12 +30,12 @@ beyond compare
 [![image](https://img.shields.io/pypi/l/pipenv.svg)](https://python.org/pypi/pipenv)
 [![CI](https://github.com/pypa/pipenv/actions/workflows/ci.yaml/badge.svg)](https://github.com/pypa/pipenv/actions/workflows/ci.yaml)
 [![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://python.org/pypi/pipenv)
-![PyPI - Version](https://img.shields.io/pypi/v/playhelpers)
+![PyPI - Version](https://img.shields.io/pypi/v/playHelpers)
 |kit| image:: https://img.shields.io/pypi/v/coverage
 |versions| image:: https://img.shields.io/pypi/pyversions/coverage.svg?logo=python&logoColor=FBE072
-[![Read the Docs](https://img.shields.io/readthedocs/playhelpers)]()
-[![Read the Docs (version)](https://img.shields.io/readthedocs/playhelpers/v1.0.0)]()
-[![Docs](https://readthedocs.org/projects/playhelpers/badge/?version=latest&style=flat)]()
+[![Read the Docs](https://img.shields.io/readthedocs/playHelpers)]()
+[![Read the Docs (version)](https://img.shields.io/readthedocs/playHelpers/v1.0.0)]()
+[![Docs](https://readthedocs.org/projects/playHelpers/badge/?version=latest&style=flat)]()
 }--------------------------------------------------------------------------------{ 
 }--------------------------------------------------------------------------------{ 
 }--------------------------------------------------------------------------------{ 

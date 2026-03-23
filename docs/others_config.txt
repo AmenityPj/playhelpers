@@ -1,12 +1,32 @@
 }************************************************************{ PyPI
-"\playhelpers\.github\workflows\python-publish-pypi.yml"
-https://pypi.org/manage/project/playhelpers/settings/publishing/
+"\playHelpers\.github\workflows\python-publish-pypi.yml"
+https://pypi.org/manage/project/playHelpers/settings/publishing/
+https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/#github-actions
         Add a new publisher
                 Github
-                Owner (required)                :   AmenityPj
-                Repository name (required)      :   playhelpers
+                Owner (required)                :   AmenityPj / impratikjaiswal
+                Repository name (required)      :   playHelpers
                 Workflow name (required)        :   python-publish-pypi.yml
                 Environment name (optional)     :   
+}************************************************************{ 
+https://github.com/impratikjaiswal/AmenityPjRaw
+https://github.com/impratikjaiswal/amenitypj_private
+
+https://github.com/AmenityPj/amenitypj.github.io
+https://github.com/AmenityPj/playHelpers        playHelpers
+        https://pypi.org/project/playHelpers
+        https://playHelpers.readthedocs.io/en/latest
+        https://amenitypj.github.io/playHelpers
+
+https://github.com/impratikjaiswal/asn1Play
+https://github.com/impratikjaiswal/tlvPlay
+https://github.com/impratikjaiswal/qrPlay
+https://github.com/impratikjaiswal/certPlay
+https://github.com/impratikjaiswal/excelPlay
+https://github.com/impratikjaiswal/dataPlay     prismPlay
+https://github.com/impratikjaiswal/amenitypj    amenityPj
+}************************************************************{ 
+https://github.com/impratikjaiswal/cardPlay
 }************************************************************{ Github Repo
 About:
         Website
@@ -17,6 +37,6 @@ About:
 
 
 }************************************************************{ Github Docs Setup
-"\playhelpers\docs\_config.yml"
-https://github.com/AmenityPj/playhelpers/settings/pages
+"\playHelpers\docs\_config.yml"
+https://github.com/AmenityPj/playHelpers/settings/pages
 }************************************************************{ 

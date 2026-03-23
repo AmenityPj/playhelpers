@@ -1,6 +1,24 @@
 ##################################################
-#### Python.gitignore
-#  Default gitignore for python project | Github
+#### AmenityPj.gitignore
+# v3.0
+##################################################
+
+##################################################
+#### Troubleshoot
+##################################################
+
+# File is being ignored / debug .gitignore:
+#  Use the command git check-ignore -v <file>. 
+#   This will tell you if the file is being ignored and which rule in the .gitignore file is causing it to be ignored.
+#   if the output is blank, this means none of the rule is being applied.
+# File already tracked:
+#   If you add a file to .gitignore after it has already been committed, Git will continue to track it. To fix this, you need to remove the file from the Git index using git rm --cached <file> and then commit the change.
+
+# References:
+#  https://techielearn.com/tutorials/git-version-control/ignoring-files/gitignore-syntax
+
+##################################################
+#### Default gitignore for python project | Github
 ##################################################
 
 # Byte-compiled / optimized / DLL files
@@ -336,16 +354,21 @@ venv*/
 # Java Crash Log Files
 hs_err_pid*.log
 
-# Private Folders
-**/priv
-**/hcs
-**/dts
+# Private Files & Folders
+*private*
+*secret*
+*non-public*
+*confidential*
+
+# Pj Exclusive Files & Folders
+*pj[_- ]exclusive*
+*pjexclusive*
 
 # Backup Folders & Files
-# **/backup
-# **/bkp
+**/backup
+**/bkp
 **/tbd
-# **/*.bkp
+**/*.bkp
 **/*.bak
 **/*.tbd
 
@@ -353,6 +376,16 @@ hs_err_pid*.log
 **/~$*.xls*
 **/~$*.doc*
 **/~$*.ppt*
+
+# Unwanted macOS specefic files
+.DS_Store
+
+# Unwanted windows specefic files
+Thumbs.db
+desktop.ini
+
+# include script logs
+!scripts/logs/*.log
 
 ##################################################
 #### Project.gitignore

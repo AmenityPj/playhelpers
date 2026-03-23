@@ -7,29 +7,29 @@ This package contains common utility functions written in python.
 
 # Stats
 
-[![GitHub License](https://img.shields.io/github/license/AmenityPj/playhelpers)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/AmenityPj/playHelpers)](LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-[![PyPI - Version](https://img.shields.io/pypi/v/playhelpers?label=pypi%20release)](https://pypi.org/project/playhelpers)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/playhelpers)](https://pypi.org/project/playhelpers)
+[![PyPI - Version](https://img.shields.io/pypi/v/playHelpers?label=pypi%20release)](https://pypi.org/project/playHelpers)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/playHelpers)](https://pypi.org/project/playHelpers)
 
-[![docs - read the docs](https://img.shields.io/readthedocs/playhelpers?label=read%20the%20docs)](https://playhelpers.readthedocs.io/en/latest/)
-[![docs - github pages](https://img.shields.io/github/actions/workflow/status/AmenityPj/playhelpers/python-github-pages.yml?label=github%20pages)](https://amenitypj.github.io/playhelpers)
+[![docs - read the docs](https://img.shields.io/readthedocs/playHelpers?label=read%20the%20docs)](https://playHelpers.readthedocs.io/en/latest/)
+[![docs - github pages](https://img.shields.io/github/actions/workflow/status/AmenityPj/playHelpers/python-github-pages.yml?label=github%20pages)](https://amenitypj.github.io/playHelpers)
 
-[![GitHub Release](https://img.shields.io/github/v/release/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/releases/latest)
-[![GitHub commits since latest release](https://img.shields.io/github/commits-since/AmenityPj/playhelpers/latest)](https://github.com/AmenityPj/playhelpers/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/commits/main)
-[![GitHub Tag](https://img.shields.io/github/v/tag/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/tags)
+[![GitHub Release](https://img.shields.io/github/v/release/AmenityPj/playHelpers)](https://github.com/AmenityPj/playHelpers/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/AmenityPj/playHelpers)](https://github.com/AmenityPj/playHelpers/releases/latest)
+[![GitHub commits since latest release](https://img.shields.io/github/commits-since/AmenityPj/playHelpers/latest)](https://github.com/AmenityPj/playHelpers/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/AmenityPj/playHelpers)](https://github.com/AmenityPj/playHelpers/commits/main)
+[![GitHub Tag](https://img.shields.io/github/v/tag/AmenityPj/playHelpers)](https://github.com/AmenityPj/playHelpers/tags)
 
-[![Publish Python Package to PyPI](https://github.com/AmenityPj/playhelpers/actions/workflows/python-publish-pypi.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-publish-pypi.yml)
-[![Test Build with variety of Pythons](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml/badge.svg)](https://github.com/AmenityPj/playhelpers/actions/workflows/python-package-test.yml)
+[![Publish Python Package to PyPI](https://github.com/AmenityPj/playHelpers/actions/workflows/python-publish-pypi.yml/badge.svg)](https://github.com/AmenityPj/playHelpers/actions/workflows/python-publish-pypi.yml)
+[![Test Build with variety of Pythons](https://github.com/AmenityPj/playHelpers/actions/workflows/python-package-test.yml/badge.svg)](https://github.com/AmenityPj/playHelpers/actions/workflows/python-package-test.yml)
 
-[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AmenityPj/playhelpers/total)]()
-[![GitHub Repo stars](https://img.shields.io/github/stars/AmenityPj/playhelpers)](https://github.com/AmenityPj/playhelpers/stargazers)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AmenityPj/playhelpers)]()
-[![GitHub repo size](https://img.shields.io/github/repo-size/AmenityPj/playhelpers)]()
-[![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/AmenityPj/playhelpers)]()
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AmenityPj/playHelpers/total)]()
+[![GitHub Repo stars](https://img.shields.io/github/stars/AmenityPj/playHelpers)](https://github.com/AmenityPj/playHelpers/stargazers)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AmenityPj/playHelpers)]()
+[![GitHub repo size](https://img.shields.io/github/repo-size/AmenityPj/playHelpers)]()
+[![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/AmenityPj/playHelpers)]()
 
 [![Static Badge](https://img.shields.io/badge/amenitypj.in-a?label=website)](https://amenitypj.in)
 [![Website](https://img.shields.io/website?url=https://amenitypj.in&label=status)](https://amenitypj.in)
@@ -47,7 +47,7 @@ Refer [Url(s) of AmenityPj](https://impratikjaiswal.github.io/amenitypj/#urls-of
 
 # Installation/Setup
 
-Steps can be found [here](https://github.com/AmenityPj/playhelpers/blob/main/HOW_TO_INSTALL_PYTHON_APPS.md).
+Steps can be found [here](https://github.com/AmenityPj/playHelpers/blob/main/HOW_TO_INSTALL_PYTHON_APPS.md).
 
 # How To Use
 
@@ -56,7 +56,7 @@ There are various ways to Get Started:
 - Online Mode
     - Website [![Static Badge](https://img.shields.io/badge/amenitypj.in-a)](https://amenitypj.in) can be used
 - Offline Mode (Requires Download / Cloning of the Repo)
-    - Code (as a library) can be directly imported from ```playhelpers/ph_*.py``` using any IDE
+    - Code (as a library) can be directly imported from ```playHelpers/ph_*.py``` using any IDE
 
 # Help
 

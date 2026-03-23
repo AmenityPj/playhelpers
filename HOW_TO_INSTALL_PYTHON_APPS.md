@@ -78,18 +78,18 @@ pip install -r requirements_internal_lib.txt
 Sample Command(s) (Unwise):
 ```
 # Directly from Git (Main Branch)
-pip install git+https://github.com/AmenityPj/playhelpers
+pip install git+https://github.com/AmenityPj/playHelpers
 
 # Directly from Git using Specific Tag
-pip install git+https://github.com/AmenityPj/playhelpers@v7.0.0
+pip install git+https://github.com/AmenityPj/playHelpers@v7.0.0
 
-# Directly from Local Cloned Copy (Shell)
-pip install /Users/amenitypj/github/playhelpers
-pip install ../playhelpers
+# Directly from Local Path (Unix-like operating systems)
+pip install ../playHelpers
+pip install /Users/amenitypj/github/playHelpers
 
-# Directly from Local Cloned Copy (Windows)
-pip install C:\Users\amenitypj\github\playhelpers
-pip install ..\playhelpers
+# Directly from Local Path (Windows-like operating systems)
+pip install ..\playHelpers
+pip install C:\Users\amenitypj\github\playHelpers
 ```
 
 Manual installation using setup.py

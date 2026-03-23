@@ -24,5 +24,5 @@ class PhConfigConst:
     TOOL_DESCRIPTION = f'A Python software package suite to provide various utility functions.'
     TOOL_META_DESCRIPTION = f'{TOOL_DESCRIPTION}'
     TOOL_META_KEYWORDS = f'{TOOL_TITLE}, Common Functions, Funcs, Util, Utility'
-    TOOL_URL = 'https://github.com/AmenityPj/playhelpers'
-    TOOL_URL_BUG_TRACKER = 'https://github.com/AmenityPj/playhelpers/issues'
+    TOOL_URL = 'https://github.com/AmenityPj/playHelpers'
+    TOOL_URL_BUG_TRACKER = 'https://github.com/AmenityPj/playHelpers/issues'
