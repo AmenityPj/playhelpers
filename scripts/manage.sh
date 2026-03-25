@@ -1,32 +1,82 @@
 #!/bin/bash
 # =============================================================================
-# manage.sh — Unified management script
-# version: 1.3
+# manage.sh — Unified management script for Unix/Linux/macOS (Batch equivalent: manage.bat on Windows)
+# version: 1.4
 #
 # Usage:
-#   ./manage.sh <command> [options]
+#   ./manage.sh <command> [type]
 #
 # Commands:
-#   e, env [type]                             Manage virtual environment (default: activate)
-#                                                 types: activate | deactivate
-#   i, ins, install [type]                    Install required dependencies (default: all)
-#                                                 types: all | internal_lib | internal_tool | external | build | cicd | experimental
-#   un, rm, uninstall [type]                  Uninstall required dependencies (default: internal_lib)
-#                                                 types: all | internal_lib | internal_tool | external | build | cicd | experimental | name
-#   u, up, upgrade [type]                     Upgrade required dependencies (default: internal_lib)
-#                                                 types: all | internal_lib | internal_tool | external | build | cicd | experimental | pip
-#   l, ls, list [type]                        List & freeze installed dependencies (default: env)
-#                                                 types: env | system
-#   ci, cd, cicd [type]                       Run cicd stuff (default: lint_error)
-#                                                 types: build | lint_error | lint_warning
-#   t, test, tests, ut, unit-tests [type]     Run unit tests (default: full)
-#                                                 types: full | unit | package
-#   v, ver, version [type]                    Manage project version (default: patch)
-#                                                 types: set | create | dev | patch | default
-#   h, -h, --help, help                       Show this help message
+#   env [type]           Manage virtual environment (default: activate)
+#                            types: activate | deactivate
+#   install [type]       Install requirements (default: basic)
+#                            types: basic | internal_lib | internal_tool | external | build | cicd | experimental | tests | all
+#   uninstall [type]     Uninstall requirements (default: internal_lib)
+#                            types: basic | internal_lib | internal_tool | external | build | cicd | experimental | tests | all | name
+#   list [type]          List & freeze installed requirements (default: env)
+#                            types: env | system
+#   upgrade [type]       Upgrade requirements (default: internal_lib)
+#                            types: basic | internal_lib | internal_tool | external | build | cicd | experimental | tests | all | pip
+#   cicd [type]          Run CI/CD operations (default: build)
+#                          types: build | lint_error | lint_warning
+#   unit-tests [type]    Run unit tests (default: full)
+#                             types: full | unit | package
+#   version [type]       Manage project version (default: patch)
+#                             types: set | create | dev | patch | default
+#   help                 Show this help message
 #
-# Aliases:
-#   types: act, deact, all, lib, tool, ext, build, cicd, exp, env, sys, full, unit, pkg
+#
+# Commands Aliases:
+#   env           e | en
+#   install       i | ins          
+#   uninstall     un | rm          
+#   upgrade       u | up           
+#   list          l | ls           
+#   show          s | sh           
+#   cicd          ci | cd          
+#   unit-tests    t | test | tests | ut
+#   version       v | ver          
+#   help          h | -h | --help    
+#
+#
+# type Aliases:
+#  For env
+#   activate         a | act
+#   deactivate       d | deact
+#  Universal for install/uninstall/upgrade
+#   basic            b | ba | basic  
+#   internal_lib     i | int | lib   
+#   internal_tool    it | tool     
+#   external         e | ext       
+#   build            bu | build    
+#   cicd             c | ci        
+#   experimental     x | exp       
+#   tests            t | tests     
+#   all              a | all       
+#  For uninstall
+#   name             n | name
+#  For upgrade
+#   pip              p | pip 
+#  For list
+#   env              e
+#   system           s | sys
+#  For cicd
+#   build            b | bu 
+#   lint_error       e | er | err | error | li_er
+#   lint_warning     w | wa | warn | li_wa
+#  For unit_tests
+#   full             f | all
+#   unit             u
+#   package          p | pkg
+#  For version
+#   set              s
+#   create           c | init | f | first
+#   dev              d
+#   patch            p
+#   default          def
+#
+#
+# NOTE: On Windows, use manage.bat for equivalent functionality.
 #
 # =============================================================================
 
@@ -150,13 +200,117 @@ _version_specific() {
     _deactivate
 }
 
+_normalize_type() {
+    # Normalize type aliases to standard names and validate
+    local type="${1:-basic}"
+    local cmd="${2:-install}"    
+    type="$(_lc "$type")"
+
+    case "$type" in
+        # Universal aliases
+        b|ba|basic) type="basic" ;;	
+        i|int|lib) type="internal_lib" ;;
+        it|tool) type="internal_tool" ;;
+        e|ext) type="external" ;;
+        bu|build) type="build" ;;
+        c|ci) type="cicd" ;;
+        x|exp) type="experimental" ;;
+        t|tests) type="tests" ;;
+        a|all) type="all" ;;
+        # For uninstall
+        n|name) type="name" ;;
+        # For upgrade
+        p|pip) type="pip" ;;
+    esac
+
+    # Validate against supported types for command
+    case "$cmd" in
+        install)
+            [[ "$type" =~ ^(basic|internal_lib|internal_tool|external|build|cicd|experimental|tests|all)$ ]] || { echo "ERROR: Unknown install type '$type'"; return 1; } ;;
+        uninstall)
+            [[ "$type" =~ ^(basic|internal_lib|internal_tool|external|build|cicd|experimental|tests|all|name)$ ]] || { echo "ERROR: Unknown uninstall type '$type'"; return 1; } ;;
+        upgrade)
+            [[ "$type" =~ ^(basic|internal_lib|internal_tool|external|build|cicd|experimental|tests|all|pip)$ ]] || { echo "ERROR: Unknown upgrade type '$type'"; return 1; } ;;
+    esac
+    
+    # TODO
+    # Need to know the list on known types
+    echo "$type"
+}
+
+_pip_action() {
+    # Generic pip action (install/uninstall/upgrade)
+
+    local action="$1"
+    local type="$2"
+    local flags="$3"
+
+    local req_file=""
+    local desc=""
+
+    # Map type to file and description
+    case "$type" in
+        basic)           req_file="${ROOT_DIR}/requirements.txt"; desc="all" ;;
+        internal_lib)    req_file="${ROOT_DIR}/requirements_internal_lib.txt"; desc="internal lib" ;;
+        internal_tool)   req_file="${ROOT_DIR}/requirements_internal_tool.txt"; desc="internal tools" ;;
+        external)        req_file="${ROOT_DIR}/requirements_external.txt"; desc="external" ;;
+        build)           req_file="${ROOT_DIR}/requirements_build.txt"; desc="build" ;;
+        cicd)            req_file="${ROOT_DIR}/requirements_cicd.txt"; desc="CI/CD" ;;
+        experimental)    req_file="${ROOT_DIR}/requirements_experimental.txt"; desc="experimental" ;;
+        tests)           req_file="${ROOT_DIR}/requirements_tests.txt"; desc="tests" ;;
+        name)            req_file="${ROOT_DIR}/requirements_name.txt"; desc="by name" ;;
+        pip)             # Special case for pip upgrade
+            echo "Upgrading pip"
+            "$python_bin" -m pip install --upgrade pip
+            return $?
+            ;;
+        *)
+    #    all)             # Special case where basic + couple of more commands are needed
+    # TODO:
+            echo "ERROR: Unsupported type '$type'"
+            return 1
+            ;;
+    esac
+
+    # Check file exists
+    if [ ! -f "$req_file" ]; then
+        echo "ERROR: Requirements file not found: $req_file"
+        return 1
+    fi
+
+    # Determine action text and pip command
+    local action_text=""
+    local pip_cmd=""
+    case "$action" in
+        install)
+            action_text="Installing"
+            pip_cmd="install"
+            ;;
+        uninstall)
+            action_text="UnInstalling"
+            pip_cmd="uninstall"
+            flags="${flags:--y}"  # Default -y for uninstall
+            ;;
+        upgrade)
+            action_text="Upgrading"
+            pip_cmd="install"
+            flags="${flags:---upgrade}"  # Default --upgrade for upgrade
+            ;;
+    esac
+
+    echo "$action_text $desc requirements"
+    pip $pip_cmd -r "$req_file" $flags
+}
+
 # ---------------------------------------------------------------------------
 # Commands
 # ---------------------------------------------------------------------------
 
 cmd_env() {
     local type="${1:-activate}"
-    case "$(_lc "$type")" in
+    type="$(_lc "$type")"
+
+    case "$type" in
         a|act) type="activate" ;;
         d|deact) type="deactivate" ;;
     esac
@@ -166,178 +320,44 @@ cmd_env() {
         deactivate) _deactivate ;;
         *)
             echo "ERROR: Unknown env type '$type'"
-            echo "Valid types: activate | deactivate"
-            exit 1
+            echo "Valid types: activate (a, act) | deactivate (d, deact)"
+            return 1
             ;;
     esac
 }
 
 cmd_install() {
-    local type="${1:-all}"
-    case "$(_lc "$type")" in
-        a) type="all" ;;
-        i|int|lib) type="internal_lib" ;;
-        it|tool) type="internal_tool" ;;
-        e|ext) type="external" ;;
-        b) type="build" ;;
-        c|ci) type="cicd" ;;
-        x|exp) type="experimental" ;;
-    esac
+    local type="${1:-basic}"
+    type="$(_normalize_type "$type" "install")" || return 1
 
     _activate
-    case "$type" in
-        all)
-            echo "Installing all requirements"
-            pip install -r "${ROOT_DIR}/requirements.txt"
-            ;;
-        internal_lib)
-            echo "Installing internal lib requirements"
-            pip install -r "${ROOT_DIR}/requirements_internal_lib.txt"
-            ;;
-        internal_tool)
-            echo "Installing internal tool requirements"
-            pip install -r "${ROOT_DIR}/requirements_internal_tool.txt"
-            ;;
-        external)
-            echo "Installing external requirements"
-            pip install -r "${ROOT_DIR}/requirements_external.txt"
-            ;;
-        build)
-            echo "Installing build requirements"
-            pip install -r "${ROOT_DIR}/requirements_build.txt"
-            ;;
-        cicd)
-            echo "Installing CI CD requirements"
-            pip install -r "${ROOT_DIR}/requirements_cicd.txt"
-            ;;
-        experimental)
-            echo "Installing experimental requirements"
-            pip install -r "${ROOT_DIR}/requirements_experimental.txt"
-            ;;
-        *)
-            echo "ERROR: Unknown install type '$type'"
-            echo "Valid types: all | internal_lib | internal_tool | external | build | cicd | experimental"
-            _deactivate; exit 1
-            ;;
-    esac
+    _pip_action "install" "$type" "" || { _deactivate; return 1; }
     _deactivate
 }
 
 cmd_uninstall() {
     local type="${1:-internal_lib}"
-    case "$(_lc "$type")" in
-        a) type="all" ;;
-        i|int|lib) type="internal_lib" ;;
-        it|tool) type="internal_tool" ;;
-        e|ext) type="external" ;;
-        b) type="build" ;;
-        c|ci) type="cicd" ;;
-        x|exp) type="experimental" ;;
-        n|name) type="name" ;;
-    esac
+    type="$(_normalize_type "$type" "uninstall")" || return 1
 
     _activate
-    case "$type" in
-        all)
-            echo "UnInstalling all requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements.txt" -y
-            ;;
-        internal_lib)
-            echo "UnInstalling internal lib requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_internal_lib.txt" -y
-            ;;
-        internal_tool)
-            echo "UnInstalling internal tool requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_internal_tool.txt" -y
-            ;;
-        external)
-            echo "UnInstalling external requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_external.txt" -y
-            ;;
-        build)
-            echo "UnInstalling build requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_build.txt" -y
-            ;;
-        cicd)
-            echo "UnInstalling CI CD requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_cicd.txt" -y
-            ;;
-        experimental)
-            echo "UnInstalling experimental requirements"
-            pip uninstall -r "${ROOT_DIR}/requirements_experimental.txt" -y
-            ;;
-        name)
-            echo "UnInstalling requirements by name"
-            pip uninstall -r "${ROOT_DIR}/requirements_name.txt" -y
-            ;;
-        *)
-            echo "ERROR: Unknown uninstall type '$type'"
-            echo "Valid types: all | internal_lib | internal_tool | external | build | cicd | experimental | name"
-            _deactivate; exit 1
-            ;;
-    esac
+    _pip_action "uninstall" "$type" "-y" || { _deactivate; return 1; }
     _deactivate
 }
 
 cmd_upgrade() {
     local type="${1:-internal_lib}"
-    case "$(_lc "$type")" in
-        a) type="all" ;;
-        i|int|lib) type="internal_lib" ;;
-        it|tool) type="internal_tool" ;;
-        e|ext) type="external" ;;
-        b) type="build" ;;
-        c|ci) type="cicd" ;;
-        x|exp) type="experimental" ;;
-        p) type="pip" ;;
-    esac
+    type="$(_normalize_type "$type" "upgrade")" || return 1
 
     _activate
-    case "$type" in
-        all)
-            echo "Upgrading all requirements"
-            "$python_bin" -m pip install --upgrade pip
-            pip install -r "${ROOT_DIR}/requirements.txt" --upgrade
-            ;;
-        internal_lib)
-            echo "Upgrading internal lib requirements"
-            pip install -r "${ROOT_DIR}/requirements_internal_lib.txt" --upgrade
-            ;;
-        internal_tool)
-            echo "Upgrading internal tool requirements"
-            pip install -r "${ROOT_DIR}/requirements_internal_tool.txt" --upgrade
-            ;;
-        external)
-            echo "Upgrading external requirements"
-            pip install -r "${ROOT_DIR}/requirements_external.txt" --upgrade
-            ;;
-        build)
-            echo "Upgrading build requirements"
-            pip install -r "${ROOT_DIR}/requirements_build.txt" --upgrade
-            ;;
-        cicd)
-            echo "Upgrading CI CD requirements"
-            pip install -r "${ROOT_DIR}/requirements_cicd.txt" --upgrade
-            ;;
-        experimental)
-            echo "Upgrading experimental requirements"
-            pip install -r "${ROOT_DIR}/requirements_experimental.txt" --upgrade
-            ;;
-        pip)
-            "$python_bin" -m pip install --upgrade pip
-            ;;
-        *)
-            echo "ERROR: Unknown upgrade type '$type'"
-            echo "Valid types: all | internal_lib | internal_tool | external | build | cicd | experimental | pip"
-            _deactivate; exit 1
-            ;;
-    esac
+    _pip_action "upgrade" "$type" "--upgrade" || { _deactivate; return 1; }
     _deactivate
 }
 
 cmd_list() {
     local type="${1:-env}"
-    case "$(_lc "$type")" in
+    type="$(_lc "$type")"    
+
+    case "$type" in
         e) type="env" ;;
         s|sys) type="system" ;;
     esac
@@ -378,10 +398,12 @@ cmd_show() {
 }
 
 cmd_cicd() {
-    local type="${1:-lint_error}"
+    local type="${1:-build}"
+    type="$(_lc "$type")"        
+
     shift || true
 
-    case "$(_lc "$type")" in
+    case "$type" in
         b|bu) type="build" ;;
         e|er|err|error|li_er) type="lint_error" ;;
         w|wa|warn|li_wa) type="lint_warning" ;;
@@ -426,9 +448,11 @@ cmd_cicd() {
 
 cmd_unit_tests() {
     local type="${1:-full}"
+    type="$(_lc "$type")"    
+        
     shift || true
 
-    case "$(_lc "$type")" in
+    case "$type" in
         f|all) type="full" ;;
         u) type="unit" ;;
         p|pkg) type="package" ;;
@@ -477,11 +501,12 @@ cmd_unit_tests() {
 
 cmd_version() {
     local type="${1:-patch}"
+    type="$(_lc "$type")"        
     shift || true
 
     local default_version="1.0.0"
 
-    case "$(_lc "$type")" in
+    case "$type" in
         s) type="set" ;;
         c|init|f|first) type="create" ;;
         d) type="dev" ;;
@@ -530,6 +555,8 @@ cmd_help() {
         stripped="${stripped# }"
         printf '%s\n' "$stripped"
     done
+    echo ""
+    echo "NOTE: On Windows, use manage.bat for equivalent functionality."
 }
 
 # ---------------------------------------------------------------------------
@@ -540,7 +567,7 @@ COMMAND="${1:-help}"
 shift || true
 
 case "$(_lc "$COMMAND")" in
-    e) COMMAND="env" ;;
+    e|en) COMMAND="env" ;;
     i|ins) COMMAND="install" ;;
     un|rm) COMMAND="uninstall" ;;
     u|up) COMMAND="upgrade" ;;
